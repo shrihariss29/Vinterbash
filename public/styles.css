@@ -111,7 +111,7 @@
   height: auto;
   font-size: 4vw;
   animation-name: fade;
-  animation-duration: 5s;
+  animation-duration: 2s;
   letter-spacing: 0.6rem;
   animation-name: fade;
   animation-duration: 3s;
@@ -124,7 +124,7 @@
   margin-left: 40%;
   margin-right: 40%;
   animation-name: fade;
-  animation-duration: 5s;
+  animation-duration: 3s;
 }
 
 .carousel
@@ -150,9 +150,8 @@
   font-family: "Jost", sans-serif;
   font-size: 2vw; 
   animation-name: fade;
-  animation-duration: 3s;
-  animation-name: fade;
-  animation-duration: 9s;
+  animation-duration: 5s;
+
 }
 .hometitle
 {
@@ -167,7 +166,7 @@
   font-family: "Jost", sans-serif;
   font-size: 3vw; 
   animation-name: fade;
-  animation-duration: 7s;
+  animation-duration: 6s;
 }
 
 
@@ -211,7 +210,6 @@
 
 /*Navbar.js*/
 .navele {
-  color:#121481;
   font-weight: 3000;
   font-size: 20px;
   font-family: "Anton", sans-serif;
