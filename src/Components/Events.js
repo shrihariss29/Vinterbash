@@ -25,7 +25,7 @@ function Events()
     </ol>
     <a className="btn btn-primary" href="https://drive.google.com/file/d/14tGu8e2BPhTovnCOWR74FQbGNnueJ_WB/view?usp=drivesdk" 
     target="_blank" rel="noreferrer">Rule Book</a>
-    <a className="btn btn-danger" href="https://www.google.com/forms/about/" 
+    <a className="btn btn-danger" href="https://forms.gle/uLLcBbzcqeSMFGC27" 
     target="_blank" rel="noreferrer">Register</a>
     </div>
 }
