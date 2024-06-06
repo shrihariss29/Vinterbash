@@ -205,6 +205,51 @@
   animation-name: fade;
   animation-duration: 3s;
 }
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 18px;
+  color: #007bff;
+}
+.arrow:hover {
+  transform: scale(1.2);
+}
+.events-container {
+  padding: 10px 20px;
+}
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.event-name {
+  flex: 7;
+  margin-left: 9%;
+}
+.event-points {
+  flex: 3;
+  text-align: right;
+  margin-right: 14% ;
+}
+.expand-enter {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.expand-enter-active {
+  max-height: 200px;
+  opacity: 1;
+  transition: max-height 300ms ease-in, opacity 300ms ease-in;
+}
+.expand-exit {
+  max-height: 200px;
+  opacity: 1;
+}
+.expand-exit-active {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 300ms ease-out, opacity 300ms ease-out;
+}
 
 
 
@@ -215,6 +260,11 @@
   font-family: "Anton", sans-serif;
   font-weight: 300;
   font-style: normal;
+  color: white;
+}
+#navele1,#navele2,#navele3,#navele4
+{
+  color: white;
 }
 .brand-logo {
   height: 40px;
@@ -228,6 +278,11 @@
   background-color:#FF6500;
   outline: none;
 }
+.bg-body-tertiary
+{
+  background-color:#121481;
+}
+
 
 
 
@@ -258,6 +313,60 @@
   height: 78.75px;
   border-radius: 5%;
 }
+
+
+
+
+/*Contact*/
+.contact-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 12%; 
+  border-radius: 3%;
+  width: 60%;
+  background-color:#121481;
+  margin-top: 3%;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+.contact-card img {
+  position: absolute;
+  left: -20%; 
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  color: white; 
+}
+.contact-details h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+.contact-details p {
+  margin: 5px 0;
+}
+.contactgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+
+
+
 
 @media(max-width:1100px)
 {
@@ -363,5 +472,17 @@
   margin-right: 10%;
   font-family: "Jost", sans-serif;
   font-size: 6vw; 
+}
+.contact-card img {
+  position: absolute;
+  left: -30%; 
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 }
