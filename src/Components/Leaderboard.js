@@ -1,48 +1,84 @@
+import React, { useState } from 'react';
+import { CSSTransition } from 'react-transition-group';
+import data from './data'; 
+
+const SchoolRow = ({ school, events, isExpanded, onToggle }) => {
+  return (
+    <>
+      <tr onClick={onToggle} style={{ cursor: 'pointer' }}>
+        <td>{school.position}</td>
+        <td>
+          <span className="arrow" style={{ marginRight: '10px' }}>
+            {isExpanded ? '▼' : '►'}
+          </span>
+          {school.name}
+        </td>
+        <td>{school.points}</td>
+      </tr>
+      <CSSTransition
+        in={isExpanded}
+        timeout={300}
+        classNames="expand"
+        unmountOnExit
+      >
+        <tr>
+          <td colSpan="3">
+            <div className="events-container">
+              {events.map((event, index) => (
+                <div key={index} className="event-item">
+                  <span className="event-name">{event.name}</span>
+                  <span className="event-points">{event.points}</span>
+                </div>
+              ))}
+            </div>
+          </td>
+        </tr>
+      </CSSTransition>
+    </>
+  );
+};
+
 const Table = ({ data }) => {
-    return (
-      <table className="table">
-        <thead>
-          <tr>
-            <th style={{width:'10%'}}>Position</th>
-            <th style={{width:'70%'}}>School name</th>
-            <th style={{width:'20%'}}>Points</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((row, index) => (
-            <tr key={index}>
-              <td>{row.column1}</td>
-              <td>{row.column2}</td>
-              <td>{row.column3}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    );
+  const [expandedRows, setExpandedRows] = useState({});
+
+  const toggleRow = (position) => {
+    setExpandedRows((prev) => ({
+      ...prev,
+      [position]: !prev[position],
+    }));
   };
 
-const data = [
-    { column1: '1', column2: 'School1 Name', column3: 'Points' },
-    { column1: '2', column2: 'School2 Name', column3: 'Points' },
-    { column1: '3', column2: 'School3 Name', column3: 'Points' },
-    { column1: '4', column2: 'School4 Name', column3: 'Points' },
-    { column1: '5', column2: 'School5 Name', column3: 'Points' },
-    { column1: '6', column2: 'School6 Name', column3: 'Points' },
-    { column1: '7', column2: 'School7 Name', column3: 'Points' },
-    { column1: '8', column2: 'School8 Name', column3: 'Points' },
-    { column1: '9', column2: 'School9 Name', column3: 'Points' },
-    { column1: '10', column2: 'School10 Name', column3: 'Points' },
-    { column1: '11', column2: 'School11 Name', column3: 'Points' },
-    { column1: '12', column2: 'School12 Name', column3: 'Points' },
-  ];
-  
-  function Leaderboard() {
-    return (
-      <div className="tabledata">
-        <h1 className="Leaderboard">Leaderboard</h1>
-        <Table data={data} />
-      </div>
-    );
-  }
+  return (
+    <table className="table">
+      <thead>
+        <tr>
+          <th style={{ width: '10%' }}>Position</th>
+          <th style={{ width: '70%' }}>School name</th>
+          <th style={{ width: '20%' }}>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.map((school, index) => (
+          <SchoolRow
+            key={index}
+            school={school}
+            events={school.events}
+            isExpanded={!!expandedRows[school.position]}
+            onToggle={() => toggleRow(school.position)}
+          />
+        ))}
+      </tbody>
+    </table>
+  );
+};
 
-  export default Leaderboard;
+function Leaderboard() {
+  return (
+    <div className="tabledata">
+      <h1 className="Leaderboard">Leaderboard</h1>
+      <Table data={data} />
+    </div>
+  );
+}
+
+export default Leaderboard;
