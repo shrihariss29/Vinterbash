@@ -7,6 +7,8 @@ import Events from './Components/Events';
 import Leaderboard from './Components/Leaderboard';
 import Sponsors from './Components/Sponsors'; 
 import Contact from './Components/Contacts';
+import PasswordForm from './Components/Imageform';
+import Registerform from './Components/registerform';
 export default function App() {
   return (
     <BrowserRouter>
@@ -17,6 +19,8 @@ export default function App() {
         <Route path="Leaderboard" element={<Leaderboard />} />
         <Route path='Sponsors' element={<Sponsors/>}/>
         <Route path='Contact' element={<Contact/>}/>
+        <Route path='form' element={<PasswordForm/>}/>
+        <Route path='registerform' element={<Registerform/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
