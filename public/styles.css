@@ -320,7 +320,6 @@ form a:hover {
 
 
 /*Navbar.js*/
-
 .navele {
   font-weight: 3000;
   font-size: 20px;
@@ -342,12 +341,7 @@ form a:hover {
 }
 #navele1,#navele2,#navele3,#navele4,#navele5
 {
-  color: black;
-  letter-spacing: 5px;
-  background-color:white;
-  margin-top: 2%;
-  border-radius: 5%;
-  padding: 2%;
+  color: white;
 }
 .brand-logo {
   height: 40px;
@@ -357,9 +351,7 @@ form a:hover {
   height: 50px;
 }
 .custom-toggle {
-  border:red;
   background-color:#FF6500;
-  outline : red;
   transition: ease;
   height:50px;
   width: 12%;
@@ -654,5 +646,13 @@ form a {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
   margin-left: 15%;
+}
+
+/*Navbar.js*/
+#navele1,#navele2,#navele3,#navele4,#navele5
+{
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 2%;
 }
 }
