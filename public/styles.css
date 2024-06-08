@@ -28,7 +28,7 @@
   font-size: 8vh;
   font-weight: 200;
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 .eventflex p 
 {
@@ -36,7 +36,7 @@
   margin-right: 10%;
   width: 80%;
   animation-name: fade;
-  animation-duration: 1.25s;
+  animation-duration: 3s;
 }
 .eventflex ol
 {
@@ -44,14 +44,14 @@
   margin-right: 10%;
   width: 80%;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 3s;
 }
 .eventflex a
 {
   margin-top: 3%;
   width: 20%;
   animation-name: fade;
-  animation-duration:2s ;
+  animation-duration:4s ;
 }
 .btn-danger
 {
@@ -62,7 +62,7 @@
   animation-duration: 11s;
   background-color:#FF6500;
   animation-name: fade;
-  animation-duration: 2.25s;
+  animation-duration: 4s;
 }
 
 
@@ -183,6 +183,8 @@ form {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  animation-name: fade;
+  animation-duration: 1s;
 }
 input[type="password"] {
   width: 100%;
