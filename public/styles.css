@@ -28,7 +28,7 @@
   font-size: 8vh;
   font-weight: 200;
   animation-name: fade;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 .eventflex p 
 {
@@ -36,7 +36,7 @@
   margin-right: 10%;
   width: 80%;
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
 }
 .eventflex ol
 {
@@ -44,14 +44,14 @@
   margin-right: 10%;
   width: 80%;
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 .eventflex a
 {
   margin-top: 3%;
   width: 20%;
   animation-name: fade;
-  animation-duration:4s ;
+  animation-duration:2s ;
 }
 .btn-danger
 {
@@ -62,7 +62,7 @@
   animation-duration: 11s;
   background-color:#FF6500;
   animation-name: fade;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 
