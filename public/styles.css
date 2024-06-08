@@ -336,9 +336,18 @@ form a:hover {
   letter-spacing:'10px';
   color: black;
 }
+.toggleletters :hover
+{
+  outline: black;
+}
 #navele1,#navele2,#navele3,#navele4,#navele5
 {
-  color: white;
+  color: black;
+  letter-spacing: 5px;
+  background-color:white;
+  margin-top: 2%;
+  border-radius: 5%;
+  padding: 2%;
 }
 .brand-logo {
   height: 40px;
@@ -348,7 +357,9 @@ form a:hover {
   height: 50px;
 }
 .custom-toggle {
+  border:red;
   background-color:#FF6500;
+  outline : red;
   transition: ease;
   height:50px;
   width: 12%;
