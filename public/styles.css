@@ -329,6 +329,17 @@ form a:hover {
   font-style: normal;
   color: white;
 }
+.toggleletters
+{
+  font-weight:'600';
+  font-family:"Anton", sans-serif;
+  letter-spacing:'10px';
+  color: black;
+}
+.toggleletters :hover
+{
+  outline: black;
+}
 #navele1,#navele2,#navele3,#navele4,#navele5
 {
   color: white;
@@ -341,10 +352,12 @@ form a:hover {
   height: 50px;
 }
 .custom-toggle {
-  border:black;
+  border:red;
   background-color:#FF6500;
-  outline:black;
+  outline : red;
   transition: ease;
+  height:50px;
+  width: 12%;
 }
 .bg-body-tertiary
 {
