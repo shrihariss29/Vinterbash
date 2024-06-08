@@ -71,7 +71,7 @@
 .sponsor {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 2%;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -80,20 +80,20 @@
 .sponsor img {
   border-radius: 10%;
   margin-top: 5%;
-  width: 10vw;
+  width: 10%;
   height: auto;
   max-width: 100%;
   max-height: 100%;
 }
 #Vinter {
   font-family: "Michroma", sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
   color: #FF6500;
   text-align: center;
   width:100%;
   height: auto;
-  font-size: 7vw;
+  font-size: 7.75vw;
   animation-name: fade;
   animation-duration: 1s;
   margin-bottom: 3%;
@@ -102,7 +102,7 @@
 
 #theme {
   font-family: "Alumni Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   font-style: normal;
   color: #121481;
   margin-top: -2%;
@@ -120,11 +120,12 @@
 {
   margin-top: 3%;
   margin-bottom: 3%;
-  width: 20%;
-  margin-left: 40%;
-  margin-right: 40%;
+  width: 38%;
+  margin-left: 31%;
+  margin-right: 31%;
   animation-name: fade;
   animation-duration: 3s;
+  max-width: 40%;
 }
 
 .carousel
