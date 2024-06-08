@@ -320,6 +320,7 @@ form a:hover {
 
 
 /*Navbar.js*/
+
 .navele {
   font-weight: 3000;
   font-size: 20px;
@@ -340,9 +341,10 @@ form a:hover {
   height: 50px;
 }
 .custom-toggle {
-  border: none;
+  border:black;
   background-color:#FF6500;
-  outline: none;
+  outline:black;
+  transition: ease;
 }
 .bg-body-tertiary
 {
