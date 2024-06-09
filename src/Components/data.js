@@ -12,7 +12,7 @@ const data = [
   },
   {
     position: '2',
-    name: 'Sri Renga Matriculation',
+    name: 'Virat Kohli CBSE School',
     points: '90',
     events: [
       { name: 'Dance - I', points: '25' },
