@@ -666,6 +666,8 @@ form a {
 {
   margin-left: -10%;
   color: white;
+  animation-name: fade;
+  animation-duration: 3.5s;
 }
 .custom-navbar .custom-brand {
   margin-left: -10%;
