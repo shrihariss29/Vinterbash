@@ -7,13 +7,13 @@ const SchoolRow = ({ school, events, isExpanded, onToggle }) => {
     <>
       <tr onClick={onToggle} style={{ cursor: 'pointer' }}>
         <td>{school.position}</td>
-        <td>
+        <td className='School'>
           <span className="arrow" style={{ marginRight: '10px' }}>
             {isExpanded ? '▼' : '►'}
           </span>
           {school.name}
         </td>
-        <td>{school.points}</td>
+        <td className='School'>{school.points}</td>
       </tr>
       <CSSTransition
         in={isExpanded}
