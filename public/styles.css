@@ -1,3 +1,87 @@
+/*Footer*/
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+#root {
+  flex: 1;
+}
+footer {
+  background-color: #121481; 
+  padding: 20px;
+  text-align: center;
+  flex-shrink: 0; 
+  width: 100%;
+  color:white;
+  margin-top: 5%;
+  margin-right: 3%;
+}
+.wholefooter
+{
+  display:flex;
+  flex-direction: column;
+  gap:25%;
+}
+.wholefooter a
+{
+  color: white;
+}
+hr {
+  border: none; 
+  height: 2px; 
+  background-color: white; 
+  margin: 20px 0; 
+}
+.contentfooter
+{
+  display: flex;
+  flex-direction: row;
+  gap:30%;
+}
+.linkfooter
+{
+  display: flex;
+  flex-direction: column;
+  gap:1%;
+}
+.linkfooter img 
+{
+  height: 592 px;
+  width: 145px;
+  margin-top: 3%;
+}
+.anchor
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:10%;
+}
+.footername
+{
+  font-family: "Michroma", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #FF6500;
+  text-align: center;
+  width:100%;
+  height: auto;
+  font-size: 3.625vw;
+  margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
 @keyframes fade {
   from {
     opacity:0;
