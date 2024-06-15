@@ -23,6 +23,8 @@ footer {
   display:flex;
   flex-direction: column;
   gap:25%;
+   animation-name: fade;
+  animation-duration: 5s;
 }
 .wholefooter a
 {
