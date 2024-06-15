@@ -10,7 +10,7 @@ function Contact()
       );
     }
     return <div>
-         <h1 className="Leaderboard">Our organizers are just a call away!</h1>
+         <h1 className="Contacttext">Our organizers are just a call away!</h1>
          <div className="contactgrid">
 
         <ContactCard orgname="Organizer" designation="Overall Event Coordinator" number="9123456789"/>
