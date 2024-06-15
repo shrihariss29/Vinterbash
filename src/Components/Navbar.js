@@ -14,10 +14,10 @@ function Navb() {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="bg-body-tertiary custom-navbar">
         <Container>
           {showBrand && (
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="/" className="custom-brand">
               <div>
                 <img src={require('../assets/vinterlogo.png')} alt='Osa logo' className="brand-logo" />
               </div>
@@ -43,4 +43,5 @@ function Navb() {
 }
 
 export default Navb;
+
 
