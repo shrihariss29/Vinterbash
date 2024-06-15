@@ -12,7 +12,7 @@ const data = [
   },
   {
     position: '2',
-    name: 'Sri Renga Matriculation higher secondary school',
+    name: 'Sri Renga Matriculation school',
     points: '90',
     events: [
       { name: 'Dance - I', points: '25' },
