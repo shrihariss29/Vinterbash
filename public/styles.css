@@ -23,7 +23,7 @@ footer {
   display:flex;
   flex-direction: column;
   gap:25%;
-   animation-name: fade;
+  animation-name: fade;
   animation-duration: 5s;
 }
 .wholefooter a
@@ -38,6 +38,7 @@ hr {
 }
 .contentfooter
 {
+  margin-left: 10%;
   display: flex;
   flex-direction: row;
   gap:30%;
@@ -46,12 +47,17 @@ hr {
 {
   display: flex;
   flex-direction: column;
-  gap:1%;
+  margin-top: 2%
+}
+.linkfooter a
+{
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 25px;
 }
 .linkfooter img 
 {
-  height: 592 px;
-  width: 145px;
+  height: 651.2 px;
+  width: 159.5px;
   margin-top: 3%;
 }
 .anchor
@@ -60,11 +66,13 @@ hr {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap:10%;
+  gap:5%;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 40px;
 }
 .footername
 {
-  font-family: "Michroma", sans-serif;
+  font-family: "Alumni Sans", sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #FF6500;
@@ -874,6 +882,16 @@ form a {
   font-size: 25px;
 }
 
+
+/*Footer*/
+.anchor{
+  margin-bottom: 5%;
+}
+.linkfooter a
+{
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 30px;
+}
 }
 
 
