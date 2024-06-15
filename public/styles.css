@@ -43,28 +43,34 @@
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   animation-name: fade;
   animation-duration: 2s;
 }
 .eventflex a
 {
-  margin-top: 3%;
-  width: 20%;
+  margin-top: 1%;
+  width: 100%;
   animation-name: fade;
   animation-duration:2s ;
+  margin-bottom: 2%;
+}
+.eventbuttonflex
+{
+  display: flex;
+  gap:30%;
+  margin-top: 3%;
+  margin-left: 15%;
 }
 .btn-danger
 {
-  margin-top: 1%;
-  margin-bottom: 3%;
-  width: 20%;
   animation-name: fade;
-  animation-duration: 11s;
+  animation-duration: 3s;
   background-color:#FF6500;
   animation-name: fade;
   animation-duration: 2s;
 }
-
 
 /*Home.js*/
 
@@ -480,26 +486,42 @@ form a:hover {
   animation-name: fade;
   animation-duration: 2s;
 }
-.eventflex a
+.eventflex a 
 {
   margin-top: 3%;
   margin-bottom: 3%;
-  width: 40%;
-  height: 40%;
+  width: 400%;
   animation-name: fade;
   animation-duration: 2.5s;
   font-size: 30px;
+}
+.register
+{
+  margin-top: 1%;
+  margin-bottom: 3%;
+  margin-left: 20%;
+  width: 40%;
+  animation-name: fade;
+  animation-duration: 3s;
 }
 .btn-danger
 {
   margin-top: 1%;
   margin-bottom: 3%;
-  width: 20%;
+  width: 40%;
+  margin-left: 20%;
   animation-name: fade;
   animation-duration: 3s;
   background-color:#FF6500;
 }
-
+.eventbuttonflex
+{
+  display: flex;
+  flex-direction: column;
+  gap:30%;
+  margin-top: 3%;
+  margin-left: 15%;
+}
 
 /*Sponsors.js*/
 .homesabout {
