@@ -19,7 +19,7 @@ function Navb() {
           {showBrand && (
             <Navbar.Brand href="/" className="custom-brand">
               <div>
-                <img src={require('../assets/vinterlogo.png')} alt='Osa logo' className="brand-logo" />
+                <img src={require('../assets/vinterlogo.jpg')} alt='Osa logo' className="brand-logo" />
               </div>
             </Navbar.Brand>
           )}
