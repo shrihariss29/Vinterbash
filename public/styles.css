@@ -9,7 +9,7 @@ body, html {
   flex: 1;
 }
 footer {
-  background-color: #121481; 
+  background-color: black; 
   padding: 20px;
   text-align: center;
   flex-shrink: 0; 
@@ -467,7 +467,7 @@ form a:hover {
 }
 .bg-body-tertiary
 {
-  background-color:#121481;
+  background-color:black;
 }
 
 
