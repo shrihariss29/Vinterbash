@@ -49,6 +49,7 @@ hr {
   flex-direction: column;
   margin-top: 2%;
   margin-left: 20%;
+  align-items: end;
 }
 .linkfooter a
 {
