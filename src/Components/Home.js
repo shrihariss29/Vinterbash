@@ -11,7 +11,7 @@ function Home()
              </div>
              <div id='homepage'>
              <h1 id='Vinter'>V I N T E R B A S H</h1>
-             <h3 id='theme'>Where champions rise</h3>
+             <h3 id='theme'>Where Champions Rise</h3>
              <a className='btn btn-primary' href="/events">Go to registration page</a>
              </div>  
       <Carousel className='carousel' interval={4000} wrap={true}>
