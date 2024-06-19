@@ -142,6 +142,7 @@ hr {
   animation-name: fade;
   animation-duration: 1.5s;
   font-family: "Jost", sans-serif;
+  text-align: justify;
 }
 .eventflex ol
 {
@@ -253,10 +254,6 @@ hr {
   width:100%;
 }
 .homeabout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
@@ -264,7 +261,7 @@ hr {
   font-size: 2vw; 
   animation-name: fade;
   animation-duration: 3s;
-
+  text-align: justify;
 }
 .hometitle
 {
@@ -513,6 +510,7 @@ form a:hover {
 {
   font-family: "Jost", sans-serif;
   font-size: 1.25vw;
+  text-align: justify;
 }
 .sponsorgrid {
   display: grid;
@@ -670,6 +668,7 @@ form a:hover {
   margin-right: -3%;
   font-size: 3vw;
   text-align:left;
+  text-align: justify;
 }
 
 /*Home.js*/
