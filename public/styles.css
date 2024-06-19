@@ -43,6 +43,10 @@ hr {
   flex-direction: row;
   gap:30%;
 }
+.contentfooter p
+{
+  font-family: "Jost", sans-serif;
+}
 .linkfooter
 {
   display: flex;
@@ -240,6 +244,10 @@ hr {
   animation-duration: 3s;
   max-width: 40%;
 }
+#homepage a:hover
+{
+  background-color:black;
+}
 
 .carousel
 {
@@ -248,6 +256,7 @@ hr {
   margin-right: 10%;
   width: 80%;
   height: auto;
+  background-color: black;
 }
 .carousel img
 {
@@ -432,7 +441,6 @@ form a:hover {
 
 /*Navbar.js*/
 .navele {
-  font-weight: 3000;
   font-size: 20px;
   font-family: "Anton", sans-serif;
   font-weight: 300;
