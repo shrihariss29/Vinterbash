@@ -4,8 +4,8 @@ function Events()
     return <div>
     <div className="eventflex">
     <h1 className="eventwelcome">Welcome to Vinterbash Events</h1>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+    <p>Whether you're curious about our lineup of exciting events, eager to delve into the intricacies of the game rules, or ready to effortlessly register, we have you covered! 
+    Stay updated and prepare to unleash your creativity, wits and fun side as D-day gets closer. Watch this space for more details. </p>
     <ol>
       <li>Event name</li>
       <li>Event name</li>
