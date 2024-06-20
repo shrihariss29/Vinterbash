@@ -1,0 +1,942 @@
+/*Footer*/
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+#root {
+  flex: 1;
+}
+footer {
+  background-color: black; 
+  padding: 20px;
+  text-align: center;
+  flex-shrink: 0; 
+  width: 100%;
+  color:white;
+  margin-top: 5%;
+  margin-right: 3%;
+}
+.wholefooter
+{
+  display:flex;
+  flex-direction: column;
+  gap:15%;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+.wholefooter a
+{
+  color: white;
+}
+hr {
+  border: none; 
+  height: 2px; 
+  background-color: white; 
+  margin: 20px 0; 
+}
+.contentfooter
+{
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  gap:30%;
+}
+.contentfooter p
+{
+  font-family: "Jost", sans-serif;
+}
+.linkfooter
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-left: 20%;
+  align-items: end;
+}
+.linkfooter a
+{
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 20px;
+}
+.linkfooter img 
+{
+  height: 651.2 px;
+  width: 159.5px;
+  margin-top: 3%;
+}
+.anchor
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:5%;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 40px;
+}
+.footername
+{
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #FF6500;
+  text-align: center;
+  width:100%;
+  height: auto;
+  font-size: 4.5vw;
+  margin-top: 2%;
+}
+.footertheme
+{
+  font-family: "Alumni Sans", sans-serif;
+  width:100%;
+  height: auto;
+  font-size: 2.5vw;
+  letter-spacing: 0.1px;
+  margin-top: -5%;
+}
+
+
+
+
+
+
+
+
+
+@keyframes fade {
+  from {
+    opacity:0;
+  }
+   to {
+    opacity:1
+  }
+}
+
+
+/*Events.js*/
+.eventflex
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.eventwelcome
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-size: 8vh;
+  font-weight: 200;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+.eventflex p 
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  font-family: "Jost", sans-serif;
+  text-align: justify;
+}
+.eventflex ol
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  animation-name: fade;
+  animation-duration: 2s;
+  font-family: "Jost", sans-serif;
+}
+.eventflex a
+{
+  margin-top: 1%;
+  width: 100%;
+  animation-name: fade;
+  animation-duration:2s ;
+  margin-bottom: 2%;
+}
+.eventbuttonflex
+{
+  display: flex;
+  gap:30%;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+.btn-danger
+{
+  animation-name: fade;
+  animation-duration: 3s;
+  background-color:#FF6500;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+/*Home.js*/
+
+.sponsor {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.sponsor img {
+  border-radius: 10%;
+  margin-top: 5%;
+  width: 10%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+#Vinter {
+  font-family: "Michroma", sans-serif;
+  font-weight:900;
+  font-style: normal;
+  color: #FF6500;
+  text-align: center;
+  width:100%;
+  height: auto;
+  font-size: 6.5vw;
+  animation-name: fade;
+  animation-duration: 1s;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+#theme {
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #121481;
+  margin-top: -2%;
+  text-align: center;
+  width:100%;
+  height: auto;
+  font-size: 5vw;
+  animation-name: fade;
+  animation-duration: 2s;
+  letter-spacing: 0.6rem;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+#homepage a
+{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 38%;
+  margin-left: 31%;
+  margin-right: 31%;
+  animation-name: fade;
+  animation-duration: 3s;
+  max-width: 40%;
+}
+#homepage a:hover
+{
+  background-color:black;
+}
+
+.carousel
+{
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: auto;
+  background-color: black;
+}
+.carousel img
+{
+  width:100%;
+}
+.homeabout {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Jost", sans-serif;
+  font-size: 2vw; 
+  animation-name: fade;
+  animation-duration: 3s;
+  text-align: justify;
+}
+.hometitle
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Jost", sans-serif;
+  font-size: 3vw; 
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+
+/*Imageform*/
+form {
+  padding: 3%;
+  border-radius: 3%;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: #F6F5F2;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+input[type="password"] {
+  width: 100%;
+  padding: 2%;
+  margin: 2% 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+input[type="password"]:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 2%;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 100%;
+  margin-top: 3%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+form a {
+  display: block;
+  text-align: center;
+  margin-top: 4%;
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 100%;
+  transition: color 0.3s;
+  width: 100%;
+}
+
+form a:hover {
+  color: #0056b3;
+}
+ form p 
+ {
+  font-family: "Jost", sans-serif;
+  margin-top: 5%;
+ }
+
+/*Leaderboard.js*/
+.table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border: 1px solid #ddd; 
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+.table th, .table td {
+  border: 1px solid #ddd; 
+  padding: 8px;
+}
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:antiquewhite;
+  color: black;
+}
+.tabledata
+{
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+}
+.Leaderboard
+{
+  margin-left: 15%;
+  margin-top: 1%;
+  animation-name: fade;
+  animation-duration: 3s;
+  font-size: 4vw;
+  font-family: "Passion One", sans-serif;
+}
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 18px;
+  color: #007bff;
+}
+.arrow:hover {
+  transform: scale(1.2);
+}
+.events-container {
+  padding: 10px 20px;
+}
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.event-name {
+  flex: 7;
+  margin-left: 9%;
+}
+.event-points {
+  flex: 3;
+  text-align: right;
+  margin-right: 14% ;
+}
+.expand-enter {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.expand-enter-active {
+  max-height: 200px;
+  opacity: 1;
+  transition: max-height 300ms ease-in, opacity 300ms ease-in;
+}
+.expand-exit {
+  max-height: 200px;
+  opacity: 1;
+}
+.expand-exit-active {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 300ms ease-out, opacity 300ms ease-out;
+}
+
+
+
+/*Navbar.js*/
+.navele {
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+}
+.toggleletters
+{
+  font-weight:'600';
+  font-family:"Anton", sans-serif;
+  letter-spacing:'10px';
+  color: black;
+}
+.toggleletters :hover
+{
+  outline: black;
+}
+#navele1,#navele2,#navele3,#navele4,#navele5
+{
+  color: white;
+}
+.brand-logo {
+  height: 40px;
+  width: auto;
+  border-radius: 5%;
+  width: 130px;
+  height: 50px;
+}
+.custom-toggle {
+  background-color:#FF6500;
+  transition: ease;
+  height:50px;
+  width: 12%;
+}
+.bg-body-tertiary
+{
+  background-color:black;
+}
+
+
+/*Gallery*/
+.imageschool {
+  margin-bottom: 2%; 
+  margin-top: 2%;
+  margin-left: 32%;
+  font-family: "Passion One", sans-serif;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  margin-left: 15%;
+}
+
+.image-container img {
+  margin: 5px; 
+}
+
+
+/*Sponsors.js*/
+.homesabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 4%;
+  font-family: "Jost", sans-serif;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+.homesabout p
+{
+  font-family: "Jost", sans-serif;
+  font-size: 1.25vw;
+  text-align: justify;
+}
+.sponsorgrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  margin: 20px;
+}
+.sponsorgrid img {
+  width: 212.75px;
+  height: 78.75px;
+  border-radius: 5%;
+}
+
+
+
+
+/*Contact*/
+.Contacttext
+{
+  margin-left: 14%;
+  margin-top: 2%;
+  animation-name: fade;
+  animation-duration: 3s;
+  font-family: "Jost", sans-serif;
+}
+.contact-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; 
+  border-radius: 3%;
+  width: 75%;
+  background-color:#121481;
+  margin-top: 5%;
+  animation-name: fade;
+  animation-duration: 3s;
+  font-family: "Jost", sans-serif;
+}
+.contactgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  margin-left: 15%;
+  width: 75%;
+}
+
+
+
+
+
+@media(max-width:1100px)
+{
+  /*Events.js*/
+  .eventwelcome
+  {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    width: 94%;
+    font-family: "Passion One", sans-serif;
+    font-weight: 100;
+    font-size: 3.3vh;
+    animation-name: fade;
+  animation-duration: 1s;
+  }
+  .eventflex p 
+{
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
+  font-size: 1.5vh;
+  margin-top: 3%;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.eventflex ol
+{
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
+  font-size: 1.5vh;
+  margin-top: 3%;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+.eventflex a 
+{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 400%;
+  animation-name: fade;
+  animation-duration: 2.5s;
+  font-size: 30px;
+}
+.register
+{
+  margin-top: 1%;
+  margin-bottom: 3%;
+  margin-left: 20%;
+  width: 40%;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+.btn-danger
+{
+  margin-top: 1%;
+  margin-bottom: 3%;
+  width: 40%;
+  margin-left: 20%;
+  animation-name: fade;
+  animation-duration: 3s;
+  background-color:#FF6500;
+}
+.eventbuttonflex
+{
+  display: flex;
+  flex-direction: column;
+  gap:30%;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+/*Sponsors.js*/
+.homesabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 4%;
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+}
+.sponsorgrid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto);
+  margin: 30px;
+}
+.sponsorgrid img {
+  width: 212.75px;
+  height: 78.75px;
+  border-radius: 5%;
+}
+.homesabout p
+{
+  margin-left: -3%;
+  width: 104%;
+  margin-right: -3%;
+  font-size: 3vw;
+  text-align:left;
+  text-align: justify;
+}
+
+/*Home.js*/
+.homeabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Jost", sans-serif;
+  font-size: 3vw; 
+}
+.hometitle
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Jost", sans-serif;
+  font-size: 6vw; 
+}
+
+/*Imageform*/
+form {
+  padding: 5%;
+  border-radius: 3%;
+  width:80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: #F6F5F2;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 2%;
+  margin: 2% 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+input[type="password"]:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 2%;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 100%;
+  margin-top: 5%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+form a {
+  display: block;
+  text-align: center;
+  margin-top: 4%;
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 100%;
+  transition: color 0.3s;
+  width: 100%;
+}
+
+/*Image*/
+.imageschool {
+  margin-bottom: 2%; 
+  margin-top: 2%;
+  margin-left: 22%;
+  font-family: "Passion One", sans-serif;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+
+  margin-left: 15%;
+}
+
+.imageschool + div {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Optional: Add space between images */
+}
+
+
+/* Contact */
+.contact-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; 
+  border-radius: 3%;
+  width: 80%;
+  background-color:#121481;
+  margin-top: 5%;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+.contact-card h2
+{ 
+  font-size: 1.4vh;
+}
+.contactgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  margin-left: 7%;
+  width: 90%;
+}
+.Contacttext
+{
+  margin-left: 7%;
+  font-size: 5vw;
+}
+/*Navbar.js*/
+#navele1,#navele2,#navele3,#navele4,#navele5
+{
+  margin-left:-10%;
+  color: white;
+    animation-name: fade;
+    animation-duration: 3.5s;
+}
+.custom-navbar .custom-brand {
+  margin-left: -10%;
+}
+
+.custom-navbar .custom-toggle {
+  margin-right: -10%;
+}
+
+
+
+/*Leaderboard.js*/
+.table {
+  width: 85%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border: 1px solid #ddd; 
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-right: 6%;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+.table th, .table td {
+  border: 1px solid #ddd; 
+  padding: 8px;
+}
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:antiquewhite;
+  color: black;
+}
+.tabledata
+{
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+}
+.Leaderboard
+{
+  margin-left: 7%;
+  margin-top: 2%;
+  animation-name: fade;
+  animation-duration: 3s;
+  font-weight: 400;
+}
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 25px;
+  color: #007bff;
+}
+.arrow:hover {
+  transform: scale(1.2);
+}
+.events-container {
+  padding: 10px 20px;
+}
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.event-name {
+  flex: 7;
+  margin-left: 9%;
+  font-size: 25px;
+}
+.event-points {
+  flex: 3;
+  text-align: right;
+  margin-right: 14% ;
+  font-size: 25px;
+}
+.expand-enter {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.expand-enter-active {
+  max-height: 200px;
+  opacity: 1;
+  transition: max-height 300ms ease-in, opacity 300ms ease-in;
+}
+.expand-exit {
+  max-height: 200px;
+  opacity: 1;
+}
+.expand-exit-active {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 300ms ease-out, opacity 300ms ease-out;
+}
+.School 
+{
+  font-size: 25px;
+}
+
+
+/*Footer*/
+.anchor{
+  margin-bottom: 5%;
+}
+.linkfooter a
+{
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 30px;
+}
+.linkfooter
+{
+  margin-right: 5%;
+  margin-top: 0%;
+}
+.contentfooter
+{
+  margin-left: 7%;
+}
+}
