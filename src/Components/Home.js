@@ -27,7 +27,7 @@ function Home() {
         ))}
       </Carousel>
       <div>
-        <h2 className="hometitle">About our event and Motto</h2>
+        <h2 className="hometitle">About our Event and Motto</h2>
         <p className="homeabout">
         With the blessings of the Almighty, the Old Students Association of Sri Vageesha Vidhyashram has been successfully conducting 
         “Vinterbash” – our flagship interschool competition which showcases the best and brightest minds from various schools in Trichy 
