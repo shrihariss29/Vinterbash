@@ -1,7 +1,7 @@
 const data = [
   {
     position: '1',
-    name: 'Kamala Nikethan Montessari School',
+    name: '{Model school name} senior secondary school',
     points: '100',
     events: [
       { name: 'Dance - III', points: '15' },
@@ -12,7 +12,7 @@ const data = [
   },
   {
     position: '2',
-    name: 'Sri Renga Matriculation school',
+    name: '{Model school name} senior secondary school',
     points: '90',
     events: [
       { name: 'Dance - I', points: '25' },
@@ -23,7 +23,7 @@ const data = [
   },
   {
     position: '3',
-    name: 'Sri Vageesha Vidhyashram',
+    name: '{Model school name} senior secondary school',
     points: '85',
     events: [
       { name: 'Drawing - II', points: '15' },
@@ -34,7 +34,7 @@ const data = [
   },
   {
     position: '4',
-    name: 'Cauvery Global',
+    name: '{Model school name} senior secondary school',
     points: '80',
     events: [
       { name: 'Shortfilm - I', points: '25' },
@@ -45,7 +45,7 @@ const data = [
   },
   {
     position: '5',
-    name: 'RSK CBSE School',
+    name: '{Model school name} senior secondary school',
     points: '75',
     events: [
       { name: 'Title event - II', points: '15' },
@@ -56,7 +56,7 @@ const data = [
   },
   {
     position: '6',
-    name: 'Alpha senior secondary school',
+    name: '{Model school name} senior secondary school',
     points: '70',
     events: [
       { name: 'Quiz - II', points: '25' },
@@ -66,7 +66,7 @@ const data = [
   },
   {
     position: '7',
-    name: 'Srirangam BHSS School',
+    name: '{Model school name} senior secondary school',
     points: '65',
     events: [
       { name: 'Dance - II', points: '25' },
@@ -76,7 +76,7 @@ const data = [
   },
   {
     position: '8',
-    name: 'Sri Akilandeswari Vidhyalaya',
+    name: '{Model school name} senior secondary school',
     points: '60',
     events: [
       { name: 'Quiz - III', points: '10' },
@@ -86,7 +86,7 @@ const data = [
   },
   {
     position: '9',
-    name: 'Santhanam Vidhyalaya',
+    name: '{Model school name} senior secondary school',
     points: '55',
     events: [
       { name: 'Shortfilm - III', points: '10' },
@@ -96,7 +96,7 @@ const data = [
   },
   {
     position: '10',
-    name: 'Kamakoti international School',
+    name: '{Model school name} senior secondary school',
     points: '50',
     events: [
       { name: 'Dance - I', points: '25' },
@@ -105,7 +105,7 @@ const data = [
   },
   {
     position: '11',
-    name: 'Jayendra Matric School',
+    name: '{Model school name} senior secondary school',
     points: '45',
     events: [
       { name: 'Drawing - III', points: '15' },
@@ -115,7 +115,7 @@ const data = [
   },
   {
     position: '12',
-    name: 'Saint John Vestry HSS School',
+    name: '{Model school name} senior secondary school',
     points: '40',
     events: [
       { name: 'Drama - I', points: '25' },
