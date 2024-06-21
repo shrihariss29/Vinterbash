@@ -257,6 +257,9 @@ hr {
   width: 80%;
   height: auto;
   background-color: black;
+  outline:burlywood;
+  outline-style:groove;
+  outline-width: 5dvh;
 }
 .carousel img
 {
@@ -279,7 +282,7 @@ hr {
   align-items: center;
   flex-direction: column;
   width: 80%;
-  margin-top: 3%;
+  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   font-family: "Jost", sans-serif;
@@ -698,11 +701,14 @@ form a:hover {
   align-items: center;
   flex-direction: column;
   width: 80%;
-  margin-top: 3%;
+  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   font-family: "Jost", sans-serif;
   font-size: 6vw; 
+}
+.carousel{
+  outline-width: 1dvh;
 }
 
 /*Imageform*/
