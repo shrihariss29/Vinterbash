@@ -15,12 +15,7 @@ const SchoolRow = ({ school, events, isExpanded, onToggle }) => {
         </td>
         <td className='School'>{school.points}</td>
       </tr>
-      <CSSTransition
-        in={isExpanded}
-        timeout={300}
-        classNames="expand"
-        unmountOnExit
-      >
+      <CSSTransition in={isExpanded} timeout={300} classNames="expand" unmountOnExit>
         <tr>
           <td colSpan="3">
             <div className="events-container">
@@ -76,9 +71,12 @@ function Leaderboard() {
   return (
     <div className="tabledata">
       <h1 className="Leaderboard">Leaderboard</h1>
+      <p>Leaderboard will be coming soon. Contact the organizers in case of any discrepancies</p>
       <Table data={data} />
     </div>
   );
 }
 
 export default Leaderboard;
+
+
