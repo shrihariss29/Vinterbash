@@ -394,6 +394,14 @@ form a:hover {
   animation-name: fade;
   animation-duration: 3s;
 }
+.tabledata p 
+{
+  font-family: "Jost", sans-serif;
+  margin-left: 15%;
+  animation-name: fade;
+  animation-duration: 3s;
+  font-size: 1.5vw;
+}
 .table th, .table td {
   border: px solid #ddd; 
   padding: 8px;
@@ -855,6 +863,11 @@ form a {
   margin-top: 2%;
   margin-left: 7%;
   margin-right: 6%;
+}
+.tabledata p 
+{
+  margin-left: 7%;
+  font-size: 2vw;
 }
 .table th {
   padding-top: 12px;
