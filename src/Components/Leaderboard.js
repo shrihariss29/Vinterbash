@@ -75,7 +75,7 @@ const Table = ({ data }) => {
 function Leaderboard() {
   return (
     <div className="tabledata">
-      <h1 className="Leaderboard">Leaderboard will be coming soon</h1>
+      <h1 className="Leaderboard">Leaderboard</h1>
       <Table data={data} />
     </div>
   );
