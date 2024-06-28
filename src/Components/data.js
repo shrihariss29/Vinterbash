@@ -7,6 +7,7 @@ const data = [
       { name: 'Event', points: 'N.A' }
     ],
   }
+]
+
 
 export default data;
-
