@@ -4,7 +4,7 @@ const data = [
     name: 'School',
     points: 'N.A',
     events: [
-      { name: 'Event', points: 'N.A' }
+      { name: 'T.B.A', points: 'N.A' }
     ],
   }
 ]
