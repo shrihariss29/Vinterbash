@@ -25,12 +25,12 @@ function Navb() {
             <span className='toggleletters'>{isToggled ? 'X Close' : ' Menu'}</span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
+            <Nav className="ml-auto ">
               <Nav.Link className="navele" id="navele1" href="/">HOME</Nav.Link>
               <Nav.Link className="navele" id="navele1" href="/events">EVENTS</Nav.Link>
+              <Nav.Link className="navele" id="navele4" href="/Contact">CONTACT</Nav.Link>
               <Nav.Link className="navele" id="navele2" href="/leaderboard">LEADERBOARD</Nav.Link>
               <Nav.Link className="navele" id="navele3" href="/Sponsors">OUR SPONSORS</Nav.Link>
-              <Nav.Link className="navele" id="navele4" href="/Contact">CONTACT</Nav.Link>
               <Nav.Link className="navele" id="navele5" href="/form">GALLERY</Nav.Link>
             </Nav>
           </Navbar.Collapse>
