@@ -607,11 +607,12 @@ form a:hover {
   justify-content: center;
   color: white; 
   border-radius: 3%;
-  width: 75%;
+  width: 85%;
   background-color:#121481;
   margin-top: 5%;
   animation-name: fade;
   animation-duration: 3s;
+  padding:5% ;
   font-family: "Jost", sans-serif;
 }
 .contactgrid {
@@ -826,11 +827,11 @@ form a {
   margin-left: 7%;
 }
 .contact-card {
-  width: 90%;
+  width: 95%;
 }
 .contact-card h2
 { 
-  font-size: 1.4vh;
+  font-size: 1.2vh;
 }
 .contactgrid {
   display: grid;
