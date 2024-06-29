@@ -1,5 +1,6 @@
 /*Footer*/
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   display: flex;
@@ -9,150 +10,127 @@ body, html {
   flex: 1;
 }
 footer {
-  background-color: black; 
+  background-color: black;
   padding: 20px;
   text-align: center;
-  flex-shrink: 0; 
+  flex-shrink: 0;
   width: 100%;
-  color:white;
+  color: white;
   margin-top: 5%;
   margin-right: 3%;
 }
-.wholefooter
-{
-  display:flex;
+.wholefooter {
+  display: flex;
   flex-direction: column;
-  gap:15%;
+  gap: 15%;
   animation-name: fade;
   animation-duration: 5s;
 }
-.wholefooter a
-{
+.wholefooter a {
   color: white;
 }
 hr {
-  border: none; 
-  height: 2px; 
-  background-color: white; 
-  margin: 20px 0; 
+  border: none;
+  height: 2px;
+  background-color: white;
+  margin: 20px 0;
 }
-.contentfooter
-{
+.contentfooter {
   margin-left: 10%;
   display: flex;
   flex-direction: row;
-  gap:30%;
+  gap: 30%;
 }
-.contentfooter p
-{
+.contentfooter p {
   font-family: "Jost", sans-serif;
 }
-.linkfooter
-{
+.linkfooter {
   display: flex;
   flex-direction: column;
   margin-top: 2%;
   margin-left: 20%;
   align-items: end;
 }
-.linkfooter img 
-{
+.linkfooter img {
   height: 651.2 px;
   width: 159.5px;
   margin-top: 3%;
 }
-.anchor
-{
+.anchor {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap:5%;
+  gap: 5%;
   font-family: "Alumni Sans", sans-serif;
   font-size: 40px;
 }
-.footername
-{
+.footername {
   font-family: "Michroma", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #FF6500;
+  color: #ff6500;
   text-align: center;
-  width:100%;
+  width: 100%;
   height: auto;
   font-size: 2.5vw;
   margin-top: 2%;
 }
-.footertheme
-{
+.footertheme {
   font-family: "Alumni Sans", sans-serif;
-  width:100%;
+  width: 100%;
   height: auto;
   font-size: 2vw;
   letter-spacing: 0.1px;
   margin-top: 2%;
 }
-.devby
-{
+.devby {
   font-family: "Alumni Sans", sans-serif;
   margin-top: 2%;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
   font-size: 2vw;
-  color: #FF6500;
+  color: #ff6500;
   letter-spacing: 1px;
 }
-.socialmedia
-{
+.socialmedia {
   display: flex;
   flex-direction: row;
   margin-bottom: 5%;
-  gap:2%;
+  gap: 2%;
 }
-.socialmedia img
-{
+.socialmedia img {
   width: 2.5vw;
   height: 2.5vw;
 }
-.socialmedia :hover
-{
-  background-color: #F6F5F2;
+.socialmedia :hover {
+  background-color: #f6f5f2;
   width: 2.7vw;
   height: 2.7vw;
   transition: smooth;
   transition-duration: 100ms;
 }
 
-
-
-
-
-
-
-
 @keyframes fade {
   from {
-    opacity:0;
+    opacity: 0;
   }
-   to {
-    opacity:1
+  to {
+    opacity: 1;
   }
 }
 
-
 /*Events.js*/
-.eventflex
-{
-  display:flex;
+.eventflex {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-left: 5%;
   margin-right: 5%;
 }
-.eventwelcome
-{
+.eventwelcome {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
@@ -164,8 +142,7 @@ hr {
   animation-duration: 1s;
   letter-spacing: 1px;
 }
-.eventflex p 
-{
+.eventflex p {
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
@@ -175,46 +152,44 @@ hr {
   text-align: justify;
   font-weight: 600;
 }
-.eventflex ol
-{
+.eventflex ol {
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   animation-name: fade;
   animation-duration: 2s;
   font-weight: 600;
   font-family: "Jost", sans-serif;
 }
-.eventbuttonflex a
-{
+.eventbuttonflex a {
   animation-name: fade;
   animation-duration: 3s;
-  background-color:#FF6500;
+  background-color: #ff6500;
   animation-name: fade;
   animation-duration: 2s;
   font-size: 2vw;
   height: max-content;
-  width:fit-content;
+  width: fit-content;
 }
-.rulebook
-{
- display : flex;
- flex-direction: row;
- gap:3%;
- margin-left: 15%;
- margin-left: 15%;
- width: 70%;
- border-radius: 2%;
- margin-top: 1%;
- background-color: black;
- color: white;
- padding: 1%;
- font-family: "Bebas Neue", sans-serif;
- font-size: 2.5vw;
+.rulebook {
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  margin-left: 15%;
+  margin-left: 15%;
+  width: 70%;
+  border-radius: 2%;
+  margin-top: 1%;
+  background-color: black;
+  color: white;
+  padding: 1%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5vw;
+  animation-name: fade;
+  animation-duration: 2.5s;
 }
-
 
 /*Home.js*/
 
@@ -237,11 +212,11 @@ hr {
 }
 #Vinter {
   font-family: "Michroma", sans-serif;
-  font-weight:900;
+  font-weight: 900;
   font-style: normal;
-  color: #FF6500;
+  color: #ff6500;
   text-align: center;
-  width:100%;
+  width: 100%;
   height: auto;
   font-size: 6.5vw;
   animation-name: fade;
@@ -257,7 +232,7 @@ hr {
   color: #121481;
   margin-top: -2%;
   text-align: center;
-  width:100%;
+  width: 100%;
   height: auto;
   font-size: 5vw;
   animation-name: fade;
@@ -266,8 +241,7 @@ hr {
   animation-name: fade;
   animation-duration: 3s;
 }
-#homepage a
-{
+#homepage a {
   margin-top: 3%;
   margin-bottom: 3%;
   width: 38%;
@@ -277,41 +251,37 @@ hr {
   animation-duration: 3s;
   max-width: 40%;
 }
-#homepage a:hover
-{
-  background-color:black;
+#homepage a:hover {
+  background-color: black;
 }
 
-.carousel
-{
+.carousel {
   margin-top: 2%;
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
   height: auto;
   background-color: black;
-  outline:burlywood;
-  outline-style:groove;
+  outline: burlywood;
+  outline-style: groove;
   outline-width: 5dvh;
   animation-name: fade;
   animation-duration: 2s;
 }
-.carousel img
-{
-  width:100%;
+.carousel img {
+  width: 100%;
 }
 .homeabout {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   font-family: "Jost", sans-serif;
-  font-size: 2vw; 
+  font-size: 2vw;
   animation-name: fade;
   animation-duration: 3s;
   text-align: justify;
 }
-.hometitle
-{
+.hometitle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -321,11 +291,10 @@ hr {
   margin-left: 10%;
   margin-right: 10%;
   font-family: "Jost", sans-serif;
-  font-size: 3vw; 
+  font-size: 3vw;
   animation-name: fade;
   animation-duration: 3.5s;
 }
-
 
 /*Imageform*/
 form {
@@ -334,7 +303,7 @@ form {
   width: 70%;
   margin-right: 15%;
   margin-left: 15%;
-  background-color: #F6F5F2;
+  background-color: #f6f5f2;
   margin-top: 5%;
   display: flex;
   justify-content: center;
@@ -354,7 +323,7 @@ input[type="password"] {
   transition: border-color 0.3s;
 }
 input[type="password"]:focus {
-  border-color: #007BFF;
+  border-color: #007bff;
   outline: none;
 }
 button[type="submit"] {
@@ -362,7 +331,7 @@ button[type="submit"] {
   padding: 2%;
   border: none;
   border-radius: 5px;
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
   font-size: 100%;
   margin-top: 3%;
@@ -376,7 +345,7 @@ form a {
   display: block;
   text-align: center;
   margin-top: 4%;
-  color: #007BFF;
+  color: #007bff;
   text-decoration: none;
   font-size: 100%;
   transition: color 0.3s;
@@ -386,50 +355,47 @@ form a {
 form a:hover {
   color: #0056b3;
 }
- form p 
- {
+form p {
   font-family: "Jost", sans-serif;
   margin-top: 5%;
- }
+}
 
 /*Leaderboard.js*/
 .table {
   width: 70%;
   border-collapse: collapse;
   margin: 20px 0;
-  border: 1px solid #ddd; 
+  border: 1px solid #ddd;
   margin-top: 1%;
   margin-left: 15%;
   margin-right: 15%;
   animation-name: fade;
   animation-duration: 3s;
 }
-.tabledata p 
-{
+.tabledata p {
   font-family: "Jost", sans-serif;
   margin-left: 15%;
   animation-name: fade;
   animation-duration: 3s;
   font-size: 1.5vw;
 }
-.table th, .table td {
-  border: px solid #ddd; 
+.table th,
+.table td {
+  border: px solid #ddd;
   padding: 8px;
 }
 .table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   color: black;
 }
-.tabledata
-{
+.tabledata {
   font-family: "Jost", sans-serif;
   font-weight: 600;
 }
-.Leaderboard
-{
+.Leaderboard {
   margin-left: 15%;
   margin-top: 2%;
   animation-name: fade;
@@ -461,7 +427,7 @@ form a:hover {
 .event-points {
   flex: 3;
   text-align: right;
-  margin-right: 14% ;
+  margin-right: 14%;
 }
 .expand-enter {
   max-height: 0;
@@ -483,8 +449,6 @@ form a:hover {
   transition: max-height 300ms ease-out, opacity 300ms ease-out;
 }
 
-
-
 /*Navbar.js*/
 .navele {
   font-size: 20px;
@@ -493,19 +457,20 @@ form a:hover {
   font-style: normal;
   color: white;
 }
-.toggleletters
-{
-  font-weight:'600';
-  font-family:"Anton", sans-serif;
-  letter-spacing:'10px';
+.toggleletters {
+  font-weight: "600";
+  font-family: "Anton", sans-serif;
+  letter-spacing: "10px";
   color: black;
 }
-.toggleletters :hover
-{
+.toggleletters :hover {
   outline: black;
 }
-#navele1,#navele2,#navele3,#navele4,#navele5
-{
+#navele1,
+#navele2,
+#navele3,
+#navele4,
+#navele5 {
   color: white;
 }
 .brand-logo {
@@ -516,20 +481,18 @@ form a:hover {
   height: 50px;
 }
 .custom-toggle {
-  background-color:#FF6500;
+  background-color: #ff6500;
   transition: ease;
-  height:50px;
+  height: 50px;
   width: 12%;
 }
-.bg-body-tertiary
-{
-  background-color:black;
+.bg-body-tertiary {
+  background-color: black;
 }
-
 
 /*Gallery*/
 .imageschool {
-  margin-bottom: 2%; 
+  margin-bottom: 2%;
   margin-top: 2%;
   margin-left: 32%;
   font-family: "Passion One", sans-serif;
@@ -543,9 +506,8 @@ form a:hover {
 }
 
 .image-container img {
-  margin: 5px; 
+  margin: 5px;
 }
-
 
 /*Sponsors.js*/
 .homesabout {
@@ -559,14 +521,12 @@ form a:hover {
   animation-name: fade;
   animation-duration: 3s;
 }
-.homesabout h2
-{
+.homesabout h2 {
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1px;
   font-size: 5vw;
 }
-.homesabout p
-{
+.homesabout p {
   font-family: "Jost", sans-serif;
   font-size: 1.25vw;
   text-align: justify;
@@ -585,18 +545,14 @@ form a:hover {
   border-radius: 5%;
 }
 
-
-
-
 /*Contact*/
-.Contacttext
-{
+.Contacttext {
   margin-left: 15%;
   margin-top: 2%;
   animation-name: fade;
   animation-duration: 3s;
   letter-spacing: 1px;
-  font-size: 8vh ;
+  font-size: 8vh;
   font-family: "Bebas Neue", sans-serif;
 }
 .contact-card {
@@ -605,14 +561,14 @@ form a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white; 
+  color: white;
   border-radius: 3%;
   width: 85%;
-  background-color:#121481;
+  background-color: #121481;
   margin-top: 5%;
   animation-name: fade;
   animation-duration: 3s;
-  padding:5% ;
+  padding: 5%;
   font-family: "Jost", sans-serif;
 }
 .contactgrid {
@@ -622,8 +578,7 @@ form a:hover {
   margin-left: 15%;
   width: 75%;
 }
-.Contact
-{
+.Contact {
   font-family: "Bebas Neue", sans-serif;
   margin-left: 15%;
   animation-name: fade;
@@ -632,336 +587,311 @@ form a:hover {
   text-decoration: underline;
 }
 
-
-
-
-
-@media(max-width:1100px)
-{
-  .socialmedia img
-{
-  width: 4vw;
-  height: 4vw;
-}
+@media (max-width: 1100px) {
+  .socialmedia img {
+    width: 4vw;
+    height: 4vw;
+  }
 
   /*Events.js*/
-  .eventwelcome
-  {
+  .eventwelcome {
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 3%;
     width: 94%;
     font-size: 3.3vh;
   }
-  .eventflex p 
-{
-  margin-left: 3%;
-  margin-right: 3%;
-  width: 94%;
-  font-size: 1.5vh;
-  margin-top: 3%;
-}
-.eventflex ol
-{
-  display: flex;
-  flex-direction: column;
-  margin-left: 3%;
-  margin-right: 3%;
-  width: 94%;
-  font-size: 1.5vh;
-  margin-top: 3%;
-}
-.rulebook
-{
-  margin-left: 10%;
-  width: 80%;
-  margin-top: 3%;
-  font-size: 3vw;
-}
+  .eventflex p {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    font-size: 1.5vh;
+    margin-top: 3%;
+  }
+  .eventflex ol {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    font-size: 1.5vh;
+    margin-top: 3%;
+  }
+  .rulebook {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 3%;
+    font-size: 3vw;
+  }
 
+  /*Sponsors.js*/
+  .homesabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 4%;
+    font-size: 30px;
+  }
+  .sponsorgrid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
+    margin: 30px;
+  }
+  .sponsorgrid img {
+    width: 212.75px;
+    height: 78.75px;
+    border-radius: 5%;
+  }
+  .homesabout p {
+    margin-left: -3%;
+    width: 104%;
+    margin-right: -3%;
+    font-size: 3vw;
+    text-align: left;
+    text-align: justify;
+  }
+  .homesabout h2 {
+    font-size: 8vw;
+  }
+  /*Home.js*/
+  .homeabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 3vw;
+  }
+  .hometitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 6vw;
+  }
+  .carousel {
+    outline-width: 1dvh;
+  }
 
-/*Sponsors.js*/
-.homesabout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-left: 12%;
-  margin-right: 12%;
-  margin-top: 4%;
-  font-size: 30px;
-}
-.sponsorgrid {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, auto);
-  margin: 30px;
-}
-.sponsorgrid img {
-  width: 212.75px;
-  height: 78.75px;
-  border-radius: 5%;
-}
-.homesabout p
-{
-  margin-left: -3%;
-  width: 104%;
-  margin-right: -3%;
-  font-size: 3vw;
-  text-align:left;
-  text-align: justify;
-}
-.homesabout h2
-{
-  font-size: 8vw;
-}
-/*Home.js*/
-.homeabout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 3vw; 
-}
-.hometitle
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 80%;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 6vw; 
-}
-.carousel{
-  outline-width: 1dvh;
-}
+  /*Imageform*/
+  form {
+    padding: 5%;
+    border-radius: 3%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #f6f5f2;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-/*Imageform*/
-form {
-  padding: 5%;
-  border-radius: 3%;
-  width:80%;
-  margin-right: 10%;
-  margin-left: 10%;
-  background-color: #F6F5F2;
-  margin-top: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+  input[type="password"] {
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  button[type="submit"] {
+    width: 100%;
+    padding: 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 100%;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  form a {
+    display: block;
+    text-align: center;
+    margin-top: 4%;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 100%;
+    transition: color 0.3s;
+    width: 100%;
+  }
 
-input[type="password"] {
-  width: 100%;
-  padding: 2%;
-  margin: 2% 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 100%;
-  box-sizing: border-box;
-  transition: border-color 0.3s;
-}
-input[type="password"]:focus {
-  border-color: #007BFF;
-  outline: none;
-}
-button[type="submit"] {
-  width: 100%;
-  padding: 2%;
-  border: none;
-  border-radius: 5px;
-  background-color: #007BFF;
-  color: white;
-  font-size: 100%;
-  margin-top: 5%;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-button[type="submit"]:hover {
-  background-color: #0056b3;
-}
-form a {
-  display: block;
-  text-align: center;
-  margin-top: 4%;
-  color: #007BFF;
-  text-decoration: none;
-  font-size: 100%;
-  transition: color 0.3s;
-  width: 100%;
-}
+  /*Image*/
+  .imageschool {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 22%;
+    font-family: "Passion One", sans-serif;
+  }
 
-/*Image*/
-.imageschool {
-  margin-bottom: 2%; 
-  margin-top: 2%;
-  margin-left: 22%;
-  font-family: "Passion One", sans-serif;
-}
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
 
-.image-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
+    margin-left: 15%;
+  }
 
-  margin-left: 15%;
-}
+  .imageschool + div {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Optional: Add space between images */
+  }
 
-.imageschool + div {
-  display: flex;
-  justify-content: center;
-  gap: 10px; /* Optional: Add space between images */
-}
+  /* Contact */
+  .Contact {
+    margin-left: 7%;
+  }
+  .contact-card {
+    width: 95%;
+  }
+  .contact-card h2 {
+    font-size: 1.2vh;
+  }
+  .contactgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    margin-left: 7%;
+    width: 90%;
+  }
+  .Contacttext {
+    margin-left: 7%;
+    font-size: 6.5vw;
+  }
+  /*Navbar.js*/
+  #navele1,
+  #navele2,
+  #navele3,
+  #navele4,
+  #navele5 {
+    margin-left: -9%;
+    color: white;
+    animation-name: fade;
+    animation-duration: 3.5s;
+    letter-spacing: 1px;
+    margin-top: 1%;
+  }
+  .custom-navbar .custom-brand {
+    margin-left: -10%;
+  }
 
+  .custom-navbar .custom-toggle {
+    margin-right: -10%;
+  }
 
-/* Contact */
-.Contact
-{
-  margin-left: 7%;
-}
-.contact-card {
-  width: 95%;
-}
-.contact-card h2
-{ 
-  font-size: 1.2vh;
-}
-.contactgrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
-  margin-left: 7%;
-  width: 90%;
-}
-.Contacttext
-{
-  margin-left: 7%;
-  font-size: 6.5vw;
-}
-/*Navbar.js*/
-#navele1,#navele2,#navele3,#navele4,#navele5
-{
-  margin-left:-9%;
-  color: white;
-  animation-name: fade;
-  animation-duration: 3.5s;
-  letter-spacing: 1px;
-  margin-top: 1%;
-}
-.custom-navbar .custom-brand {
-  margin-left: -10%;
-}
+  /*Leaderboard.js*/
+  .table {
+    width: 85%;
+    margin: 20px 0;
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 6%;
+  }
+  .tabledata p {
+    margin-left: 7%;
+    font-size: 2vw;
+  }
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .tabledata {
+    font-weight: 500;
+  }
+  .Leaderboard {
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 4vh;
+    font-weight: 400;
+  }
+  .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    font-size: 25px;
+    color: #007bff;
+  }
+  .arrow:hover {
+    transform: scale(1.2);
+  }
+  .events-container {
+    padding: 10px 20px;
+  }
+  .event-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  .event-name {
+    flex: 7;
+    margin-left: 9%;
+    font-size: 25px;
+  }
+  .event-points {
+    flex: 3;
+    text-align: right;
+    margin-right: 14%;
+    font-size: 25px;
+  }
+  .expand-enter {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+  .expand-enter-active {
+    max-height: 200px;
+    opacity: 1;
+    transition: max-height 300ms ease-in, opacity 300ms ease-in;
+  }
+  .expand-exit {
+    max-height: 200px;
+    opacity: 1;
+  }
+  .expand-exit-active {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 300ms ease-out, opacity 300ms ease-out;
+  }
+  .School {
+    font-size: 25px;
+  }
 
-.custom-navbar .custom-toggle {
-  margin-right: -10%;
-}
-
-
-
-/*Leaderboard.js*/
-.table {
-  width: 85%;
-  margin: 20px 0;
-  margin-top: 2%;
-  margin-left: 7%;
-  margin-right: 6%;
-}
-.tabledata p 
-{
-  margin-left: 7%;
-  font-size: 2vw;
-}
-.table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-.tabledata
-{
-  font-weight: 500;
-}
-.Leaderboard
-{
-  margin-left: 7%;
-  margin-top: 2%;
-  font-size: 4vh;
-  font-weight: 400;
-}
-.arrow {
-  display: inline-block;
-  transition: transform 0.3s ease;
-  font-size: 25px;
-  color: #007bff;
-}
-.arrow:hover {
-  transform: scale(1.2);
-}
-.events-container {
-  padding: 10px 20px;
-}
-.event-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 0;
-}
-.event-name {
-  flex: 7;
-  margin-left: 9%;
-  font-size: 25px;
-}
-.event-points {
-  flex: 3;
-  text-align: right;
-  margin-right: 14% ;
-  font-size: 25px;
-}
-.expand-enter {
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-}
-.expand-enter-active {
-  max-height: 200px;
-  opacity: 1;
-  transition: max-height 300ms ease-in, opacity 300ms ease-in;
-}
-.expand-exit {
-  max-height: 200px;
-  opacity: 1;
-}
-.expand-exit-active {
-  max-height: 0;
-  opacity: 0;
-  transition: max-height 300ms ease-out, opacity 300ms ease-out;
-}
-.School 
-{
-  font-size: 25px;
-}
-
-
-/*Footer*/
-.anchor{
-  margin-bottom: 0%;
-}
-.linkfooter a
-{
-  font-family: "Alumni Sans", sans-serif;
-  font-size: 30px;
-}
-.linkfooter
-{
-  margin-right: 5%;
-  margin-top: 0%;
-}
-.contentfooter
-{
-  margin-left: 7%;
-}
+  /*Footer*/
+  .anchor {
+    margin-bottom: 0%;
+  }
+  .linkfooter a {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 30px;
+  }
+  .linkfooter {
+    margin-right: 5%;
+    margin-top: 0%;
+  }
+  .contentfooter {
+    margin-left: 7%;
+  }
 }
