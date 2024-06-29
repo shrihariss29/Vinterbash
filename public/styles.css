@@ -601,6 +601,10 @@ form p {
     width: 4vw;
     height: 4vw;
   }
+  .socialmedia :hover {
+    width: 4.3vw;
+    height: 4.4vw;
+  }
 
   /*Events.js*/
   .eventwelcome {
