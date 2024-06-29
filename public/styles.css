@@ -821,6 +821,10 @@ form a {
 
 
 /* Contact */
+.Contact
+{
+  margin-left: 7%;
+}
 .contact-card {
   width: 90%;
 }
