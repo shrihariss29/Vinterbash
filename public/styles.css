@@ -621,6 +621,15 @@ form a:hover {
   margin-left: 15%;
   width: 75%;
 }
+.Contact
+{
+  font-family: "Bebas Neue", sans-serif;
+  margin-left: 15%;
+  animation-name: fade;
+  animation-duration: 3s;
+  margin-top: 3%;
+  text-decoration: underline;
+}
 
 
 
@@ -813,7 +822,7 @@ form a {
 
 /* Contact */
 .contact-card {
-  width: 80%;
+  width: 90%;
 }
 .contact-card h2
 { 
