@@ -39,7 +39,7 @@ function Events()
     </div>
     <div className="rulebook">
     <p>Click here to register in a traditional way (Alternative)</p>
-    <a className="btn btn-danger" href="https://forms.gle/oBiqhWX3nfCDRVuy6">Register</a>
+    <a className="btn btn-danger" href="https://forms.gle/oBiqhWX3nfCDRVuy6" target="_blank" rel="noreferrer">Register</a>
     </div>
     </div>
     </div>
