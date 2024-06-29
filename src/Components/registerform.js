@@ -6,7 +6,7 @@ const Registerform = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (password === 'pmmodiistheboss') {
-            window.open('https://docs.google.com/forms/d/e/1FAIpQLSfKHIx2UrKBHOi1QJHaH8mV66LA9fIWKe9ypZt7wzMQ5E709w/viewform', '_blank');
+            window.open('https://forms.gle/WNRPjo7S4ZaYmp8a9', '_blank');
         } else {
             alert('Incorrect password');
         }
