@@ -37,6 +37,7 @@ function Events()
     <p>Click here to register online (Highly Recommended)</p>
     <a className="btn btn-danger" href="registerform">Register</a>
     </div>
+    <p className="announce">Note : If you have registered by online, kindly ignore the below form.</p>
     <div className="rulebook">
     <p>Click here to register in the traditional way (Alternative)</p>
     <a className="btn btn-danger" href="https://forms.gle/WwwDnHGsNHjBmBJh8" target="_blank" rel="noreferrer">Register</a>
