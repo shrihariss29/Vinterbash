@@ -34,11 +34,11 @@ function Contact()
         </div>
         <h1 className="Contact">Overall Co-Ordinators :</h1>
         <div className="contactgrid">
-        <ContactCard orgname="Jay" designation="Overall Co-Ordinator" number="90874 76555" />
-        <ContactCard orgname="Kishanth" designation="Overall Co-Ordinator" number="75988 58465"/>
-        <ContactCard orgname="Harini Ishwarya" designation="Overall Co-Ordinator" number="94891 98598" />
         <ContactCard orgname="Srivasthan" designation="Overall Co-Ordinator" number="70101 84600" />
         <ContactCard orgname="Amruthavarshan" designation="Overall Co-Ordinator" number="70100 89170" />
+        <ContactCard orgname="Kishanth" designation="Overall Co-Ordinator" number="75988 58465"/>
+        <ContactCard orgname="Jay" designation="Overall Co-Ordinator" number="90874 76555" />
+        <ContactCard orgname="Harini Ishwarya" designation="Overall Co-Ordinator" number="94891 98598" />
         </div>
         <h1 className="Contact">Technical Co-Ordinators :</h1>
         <div className="contactgrid">
