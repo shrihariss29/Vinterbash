@@ -5,7 +5,7 @@ const Registerform = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (password === 'pmmodiistheboss') {
+        if (password === 'tvbwcr24') {
             window.open('https://forms.gle/WNRPjo7S4ZaYmp8a9', '_blank');
         } else {
             alert('Incorrect password');
