@@ -7,7 +7,7 @@ function Events()
     <p>Whether you're curious about our lineup of exciting events, eager to delve into the intricacies of the game rules, or ready to effortlessly register, we have you covered! 
     Stay updated and prepare to unleash your creativity, wits and fun side as D-day gets closer. Watch this space for more details. </p>
     <ol>
-      <li>The Triquizzard Tournument</li>
+      <li>The Triquizzard Tournament</li>
       <li>Itihasas Quiz</li>
       <li>'What if?' Odyssey</li>
       <li>Think On Your Feet</li>
