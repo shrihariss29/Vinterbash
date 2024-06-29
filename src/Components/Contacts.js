@@ -42,8 +42,8 @@ function Contact()
         </div>
         <h1 className="Contact">Technical Co-Ordinators :</h1>
         <div className="contactgrid">
-        <ContactCard orgname="Shrihari" designation="Overall Co-Ordinator" number="82205 32903" />
-        <ContactCard orgname="Jayavanth" designation="Overall Co-Ordinator" number="90808 32022"/>
+        <ContactCard orgname="Shrihari" designation="Overall Technical Co-Ordinator" number="82205 32903" />
+        <ContactCard orgname="Jayavanth" designation="Overall Technical Co-Ordinator" number="90808 32022"/>
         </div>
     </div>
 }
