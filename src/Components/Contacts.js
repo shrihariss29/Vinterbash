@@ -17,7 +17,7 @@ function Contact()
         <ContactCard orgname="Sayee Shivani" designation="Think On Your Feet" number="99407 55950" />
         <ContactCard orgname="Srinivasa Raghavan" designation= "The Triquizzard Tournament" number = "88254 08754"/>
         <ContactCard orgname="Sanjay Balaji" designation=" Itihasas Quiz" number="81487 26890" />
-        <ContactCard orgname="Niranjana" designation="மொழியமுதம் (Mozhiyamudham)" number="80566 21347"/>
+        <ContactCard orgname="Niranjana" designation="மொழியமுதம்(Mozhiyamudham)" number="80566 21347"/>
         <ContactCard orgname="Neeraja" designation="Cartoon Verse Crossover" number="97893 13057" />
         <ContactCard orgname="Charuprabha" designation="Multi Media Madness" number="94456 53091" />
         <ContactCard orgname="Shruthi" designation="Nalamdhaanaa?!" number="99430 26001" />
