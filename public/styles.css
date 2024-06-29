@@ -187,13 +187,7 @@ hr {
   font-weight: 600;
   font-family: "Jost", sans-serif;
 }
-.register
-{
-animation-name: fade;
-animation-duration: 3s;
-font-size: 2vw;
-}
-.btn-danger
+.eventbuttonflex a
 {
   animation-name: fade;
   animation-duration: 3s;
@@ -201,6 +195,8 @@ font-size: 2vw;
   animation-name: fade;
   animation-duration: 2s;
   font-size: 2vw;
+  height: max-content;
+  width:fit-content;
 }
 .rulebook
 {
@@ -216,7 +212,7 @@ font-size: 2vw;
  color: white;
  padding: 1%;
  font-family: "Bebas Neue", sans-serif;
- font-size: 2vw;
+ font-size: 2.5vw;
 }
 
 
@@ -670,26 +666,9 @@ form a:hover {
   margin-left: 10%;
   width: 80%;
   margin-top: 3%;
-}
-.register
-{
-  margin-top: 1%;
-  margin-bottom: 3%;
-  width: 40%;
-  animation-name: fade;
-  animation-duration: 3s;
   font-size: 3vw;
 }
-.btn-danger
-{
-  margin-top: 1%;
-  margin-bottom: 3%;
-  width: 40%;
-  animation-name: fade;
-  animation-duration: 3s;
-  background-color:#FF6500;
-  font-size: 3vw;
-}
+
 
 /*Sponsors.js*/
 .homesabout {
