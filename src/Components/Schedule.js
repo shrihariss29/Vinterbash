@@ -1,4 +1,5 @@
 import React from 'react';
+
 function Schedule() {
   const ScheduleCard = (title, subtitle, type, time, venue, imgSrc) => {
     return (
@@ -7,13 +8,14 @@ function Schedule() {
         <div>
           <h1>{title}</h1>
           <h3>{subtitle}</h3>
-          <h4>Type : {type}</h4>
-          <h4>Time : {time}</h4>
-          <h4>Venue : {venue}</h4>
+          <h5>Type : {type}</h5>
+          <h5>Time : {time}</h5>
+          <h5>Venue : {venue}</h5>
         </div>
       </div>
     );
   };
+
   return (
     <div>
       <h1 className="Leaderboard">Schedule</h1>
@@ -41,4 +43,5 @@ function Schedule() {
     </div>
   );
 }
+
 export default Schedule;
