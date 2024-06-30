@@ -5,10 +5,11 @@ import Navb from './Components/Navbar';
 import Home from './Components/Home';
 import Events from './Components/Events';
 import Leaderboard from './Components/Leaderboard';
-import Sponsors from './Components/Sponsors'; 
 import Contact from './Components/Contacts';
 import PasswordForm from './Components/Imageform';
 import Registerform from './Components/registerform';
+import ScoreCard from './Components/Scorecard';
+import Schedule from './Components/Schedule';
 export default function App() {
   return (
     <BrowserRouter>
@@ -17,10 +18,11 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="Events" element={<Events />} />
         <Route path="Leaderboard" element={<Leaderboard />} />
-        <Route path='Sponsors' element={<Sponsors/>}/>
         <Route path='Contact' element={<Contact/>}/>
         <Route path='form' element={<PasswordForm/>}/>
         <Route path='registerform' element={<Registerform/>}/>
+        <Route path='Scorecard' element={<ScoreCard/>}/>
+        <Route path='Schedule' element={<Schedule/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
