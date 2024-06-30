@@ -4,20 +4,20 @@ const cricketMatches = [
     {
       status: "Group stage 6 over match (Completed)",
       color: "#9BEC00",
-      school1Name: "School1name (Toss)",
-      school1Score: "48/4 (6)",
-      school2Name: "School2name",
-      school2Score: "38 all out (5.3)",
-      manOfTheMatch: "Studentname (what he did)"
+      school1Name: "School (Toss)",
+      school1Score: "xx/x(x)",
+      school2Name: "School",
+      school2Score: "xx/x(x)",
+      manOfTheMatch: "Student()"
     },
     {
       status: "Group stage 6 over match (Live)",
       color: "#E76F51",
-      school1Name: "School3name",
-      school1Score: "41/2 (6)",
-      school2Name: "School4name (Toss)",
+      school1Name: "School",
+      school1Score: "xx/x(x)",
+      school2Name: "School4(Toss)",
       school2Score: "Yet to bat",
-      manOfTheMatch: "Studentname (what he did)"
+      manOfTheMatch: "Student()"
     }
   ];
   
@@ -25,16 +25,16 @@ const cricketMatches = [
     {
       status: "Group stage game (Completed)",
       color: "#9BEC00",
-      school1Name: "School5name",
-      schoolsScore: "3-2 (FT)",
-      school2Name: "School6name",
-      manOfTheMatch: "Studentname (what he did)"
+      school1Name: "School",
+      schoolsScore: "x-x (FT)",
+      school2Name: "School",
+      manOfTheMatch: "Student()"
     },
     {
       status: "Group stage game (Live)",
       color: "#E76F51",
       school1Name: "School7name",
-      schoolsScore: "1-1 (HT)",
+      schoolsScore: "x-x (HT)",
       school2Name: "School8name",
       manOfTheMatch: "Studentname (what he did)"
     },
