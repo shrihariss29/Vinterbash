@@ -30,7 +30,7 @@ function Contact()
         <ContactCard orgname="Ekanath" designation="Acoustic Nirvana" number="80157 64279" />
         <ContactCard orgname="Arun Meyyappan" designation="Python Prowess Quest " number="90426 49000" />
         <ContactCard orgname="Kishanth" designation="Vinter Kick-Off : 5-A Side Football" number="75988 58465" />
-        <ContactCard orgname="Acchudhan" designation="Vinter Bowl-out : Turf Cricket" number="93614 97517" />
+        <ContactCard orgname="Acchudan" designation="Vinter Bowl-out : Turf Cricket" number="93614 97517" />
         </div>
         <h1 className="Contact">Technical Co-Ordinators :</h1>
         <div className="contactgrid">
