@@ -35,7 +35,7 @@ function Schedule() {
         {ScheduleCard('Sports','Vinter bowl-out (Cricket)','Group stages','To be announced','To be announced','sport.jpg')}
         {ScheduleCard('Sports','Vinter kick-off (Football)','Group stages','To be announced','To be announced','sport.jpg')}
         {ScheduleCard('Music','Acoustic Nirvana','One shot event','2:00 pm to 4:00 pm','To be announced','music.jpg')}
-        {ScheduleCard('Dance','Five,Six,Seven,Eight','One shot event','02:00 pm to 02:30 pm','To be announced','dance.jpg')}
+        {ScheduleCard('Dance','Five,Six,Seven,Eight','One shot event','02:00 pm to 04:30 pm','To be announced','dance.jpg')}
         {ScheduleCard('Dramatics','The Imitation Game','Finals','02:00 pm to 04:00 pm','To be announced','drama.jpg')}
         {ScheduleCard('Quiz','Ithihaas Quiz','Prelims','02:00 pm to 03:00 pm','To be announced','quiz.jpg')}
         {ScheduleCard('Art','Cartoon Universe Crossover','One shot event','02:00 pm to 05:00 pm','To be announced','art.jpg')}
