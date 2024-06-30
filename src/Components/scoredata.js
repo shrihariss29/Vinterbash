@@ -36,7 +36,7 @@ const cricketMatches = [
       school1Name: "School7name",
       schoolsScore: "x-x (HT)",
       school2Name: "School8name",
-      manOfTheMatch: "Studentname (what he did)"
+      manOfTheMatch: "Studentname ()"
     },
     
   ];
