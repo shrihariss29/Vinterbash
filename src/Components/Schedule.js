@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Schedule() {
+
   const ScheduleCard = (title, subtitle, type, time, venue, imgSrc) => {
     return (
       <div className="schedulecard">
@@ -15,7 +15,7 @@ function Schedule() {
       </div>
     );
   };
-
+  function Schedule() {
   return (
     <div>
       <h1 className="Leaderboard">Schedule</h1>
