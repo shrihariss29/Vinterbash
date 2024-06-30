@@ -14,7 +14,7 @@ function Contact()
          <h1 className="Contact">Event Organizers : </h1>
          <div className="contactgrid">
         <ContactCard orgname="Anirudh" designation="'What if?' Odyssey" number="86101 03593"/>
-        <ContactCard orgname="Sayee Shivani" designation="Think On Your Feet" number="99407 55950" />
+        <ContactCard orgname="Sayee Shivaani" designation="Think On Your Feet" number="99407 55950" />
         <ContactCard orgname="Srinivasa Raghavan" designation= "The Triquizzard Tournament" number = "88254 08754"/>
         <ContactCard orgname="Sanjay Balaji" designation=" Itihasas Quiz" number="81487 26890" />
         <ContactCard orgname="Niranjana" designation="மொழியமுதம்(Mozhiyamudham)" number="80566 21347"/>
