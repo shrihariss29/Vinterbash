@@ -584,6 +584,7 @@ form p {
   animation-duration: 3s;
   padding: 5%;
   font-family: "Jost", sans-serif;
+  transition: 500ms ease-in-out;
 }
 .contactgrid {
   display: grid;
@@ -607,7 +608,7 @@ form p {
 {
   display: flex;
   flex-direction: column;
-  gap:2%
+  gap:2%;
 }
 .scorecard
 {
@@ -679,10 +680,17 @@ form p {
   animation: fade;
   animation-duration: 3s;
 }
+.schedule-details {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
 .schedulecard h1
 {
   text-decoration: underline;
 }
+
 
 @media (max-width: 1100px) {
   .anchor{
