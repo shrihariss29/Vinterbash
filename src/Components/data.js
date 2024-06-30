@@ -6,6 +6,6 @@ const data = [
     events: [
       { name: 'Event - I', points: '00' },
     ],
-  }
+  },
 
 export default data;
