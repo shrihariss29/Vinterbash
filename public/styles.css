@@ -679,6 +679,10 @@ form p {
   animation: fade;
   animation-duration: 3s;
 }
+.schedulecard h1
+{
+  text-decoration: underline;
+}
 
 @media (max-width: 1100px) {
   .anchor{
