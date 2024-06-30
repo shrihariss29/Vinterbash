@@ -15,7 +15,7 @@ const cricketMatches = [
       color: "#E76F51",
       school1Name: "School",
       school1Score: "xx/x(x)",
-      school2Name: "School4(Toss)",
+      school2Name: "School(Toss)",
       school2Score: "Yet to bat",
       manOfTheMatch: "Student()"
     }
@@ -33,10 +33,10 @@ const cricketMatches = [
     {
       status: "Group stage game (Live)",
       color: "#E76F51",
-      school1Name: "School7name",
+      school1Name: "School",
       schoolsScore: "x-x (HT)",
-      school2Name: "School8name",
-      manOfTheMatch: "Studentname ()"
+      school2Name: "School",
+      manOfTheMatch: "Student()"
     },
     
   ];
