@@ -706,6 +706,8 @@ form p {
 }
 .filter {
   display: flex;
+  animation: fade;
+  animation-duration: 3s;
 }
 
 
