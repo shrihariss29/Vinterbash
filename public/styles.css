@@ -172,8 +172,8 @@ hr {
   animation-name: fade;
   animation-duration: 2s;
   font-size: 2vw;
-  height: max-content;
-  width: fit-content;
+  width: 20%;
+  height: 25%;
 }
 
 .rulebook {
