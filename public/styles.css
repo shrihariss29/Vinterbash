@@ -1064,11 +1064,11 @@ form p {
   .eventType
   {
     margin-left: 7%;
-    font-size: 3vw;
+    font-size: 4vw;
   }
   #eventType
   {
-    height: 2.5vw;
+    height: 4vw;
     font-size: 1vw;
   }
 }
