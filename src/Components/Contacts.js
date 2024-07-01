@@ -40,8 +40,8 @@ function Contact()
         </div>
         <h1 className="Contact">Technical Coordinators :</h1>
         <div className="contactgrid">
-        <ContactCard orgname="Shrihari" designation="Overall Technical Coordinator" number="82205 32903" />
-        <ContactCard orgname="Jayavanth" designation="Overall Technical Coordinator" number="90808 32022"/>
+        <ContactCard orgname="Shrihari" designation="Technical Coordinator" number="82205 32903" />
+        <ContactCard orgname="Jayavanth" designation="Technical Coordinator" number="90808 32022"/>
         </div>
     </div>
 }
