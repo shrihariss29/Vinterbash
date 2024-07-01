@@ -173,7 +173,7 @@ hr {
   animation-duration: 2s;
   font-size: 2vw;
   width: 20%;
-  height: 25%;
+  height: 20%;
 }
 
 .rulebook {
@@ -741,6 +741,12 @@ form p {
     width: 94%;
     font-size: 1.5vh;
     margin-top: 3%;
+  }
+  .eventbuttonflex a
+  {
+  font-size: 3vw;
+  width: 20%;
+  height: 25%;
   }
   .eventflex ol {
     display: flex;
