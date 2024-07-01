@@ -32,10 +32,16 @@ function Contact()
         <ContactCard orgname="Kishanth" designation="Vinter Kick-Off : 5-A Side Football" number="75988 58465" />
         <ContactCard orgname="Acchudan" designation="Vinter Bowl-out : Turf Cricket" number="93614 97517" />
         </div>
-        <h1 className="Contact">Technical Co-Ordinators :</h1>
+        <h1 className="Contact">Overall Coordinators :</h1>
         <div className="contactgrid">
-        <ContactCard orgname="Shrihari" designation="Overall Technical Co-Ordinator" number="82205 32903" />
-        <ContactCard orgname="Jayavanth" designation="Overall Technical Co-Ordinator" number="90808 32022"/>
+        <ContactCard orgname="Srivasthan" designation="Overall Coordinator" number="70101 84600" />
+        <ContactCard orgname="Harini Ishwarya" designation="Overall Coordinator" number="94891 89598" />
+        <ContactCard orgname="Amruthavarshan" designation="Overall Coordinator" number="70100 89170" />
+        </div>
+        <h1 className="Contact">Technical Coordinators :</h1>
+        <div className="contactgrid">
+        <ContactCard orgname="Shrihari" designation="Overall Technical Coordinator" number="82205 32903" />
+        <ContactCard orgname="Jayavanth" designation="Overall Technical Coordinator" number="90808 32022"/>
         </div>
     </div>
 }
