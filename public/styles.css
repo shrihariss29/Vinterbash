@@ -252,14 +252,17 @@ hr {
   animation-duration: 3s;
 }
 #homepage a {
-  margin-top: 3%;
+  margin-top: 1%;
   margin-bottom: 3%;
-  width: 38%;
-  margin-left: 31%;
-  margin-right: 31%;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
   animation-name: fade;
   animation-duration: 3s;
   max-width: 40%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2vw;
+  color: white;
 }
 #homepage a:hover {
   background-color: black;
@@ -725,6 +728,17 @@ form p {
   .socialmedia :hover {
     width: .3vw;
     height: 4.4vw;
+  }
+
+  /*Home.js*/
+  #homepage a {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 40%;
+    font-size: 3vw;
   }
 
   /*Events.js*/
