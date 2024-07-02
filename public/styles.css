@@ -664,6 +664,10 @@ form p {
   width: 20%;
   height: 20%;
   border-radius: 50%;
+  transition: transform 0.5s ease;
+}
+.schedulecard:hover img {
+  transform: scale(1.1);
 }
 .schedulecard
 {
