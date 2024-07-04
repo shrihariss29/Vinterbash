@@ -41,7 +41,7 @@ function Schedule() {
     setSelectedType(event.target.value);
   };
 
-  const filteredEvents = selectedType === 'All' ? events : events.filter(event => event.type === selectedType);
+  const filteredEvents = selectedType === 'All' ? events : events.filter(event => event.title === selectedType);
 
   const ScheduleCard = ({ title, subtitle, type, time, venue, imgSrc}) => (
     <div className="schedulecard">
