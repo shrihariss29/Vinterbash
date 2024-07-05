@@ -13,7 +13,7 @@ function Home() {
         <a className="btn btn-primary" href="/events">
           Go to registration page
         </a>
-        <h3 className="lastdate">(Last to register is July 23rd 2024, 11:59 pm)</h3>
+        <h3 className="lastdate">(Last date to register - July 23rd 2024, 11:59 pm)</h3>
       </div>
       <Carousel className="carousel" interval={4000} wrap={true}>
         {[1, 2, 3, 4, 5, 6, 7].map((index) => (
