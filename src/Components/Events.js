@@ -35,13 +35,13 @@ function Events()
     </div>
     <div className="rulebook">
     <p>Click here to register online (Highly Recommended)
-    <h3>(Last to register is July 23rd 2024, 11:59 pm)</h3></p>
+    <h3>(Last date to register - July 23rd 2024, 11:59 pm)</h3></p>
     <a className="btn btn-danger reg" href="registerform">Register</a>
     </div>
     <p className="announce">Note : If you have registered by online, kindly ignore the below form.</p>
     <div className="rulebook">
     <p>Click here to register in the traditional way (Alternative)
-    <h3>(Last to register is July 23rd 2024, 11:59 pm)</h3></p>
+    <h3>(Last date to register - July 23rd 2024, 11:59 pm)</h3></p>
     <a className="btn btn-danger reg" href="https://forms.gle/WwwDnHGsNHjBmBJh8" target="_blank" rel="noreferrer">Register</a>
     </div>
     </div>
