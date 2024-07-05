@@ -45,23 +45,6 @@ function Home() {
             your unwavering support and belief in our vision has empowered us to create an unforgettable experience for students, teachers,
             and organizers alike. Thank you once again for being an integral part of Vinterbash 2024. Your partnership continues to make a 
             profound impact on our community and beyond.</p>
-             <div className="sponsorgrid">
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
-            </div>
              </div>
     </div>
   );
