@@ -13,6 +13,7 @@ function Home() {
         <a className="btn btn-primary" href="/events">
           Go to registration page
         </a>
+        <h3 className="lastdate">(Last to register is July 23rd 2024, 11:59 pm)</h3>
       </div>
       <Carousel className="carousel" interval={4000} wrap={true}>
         {[1, 2, 3, 4, 5, 6, 7].map((index) => (
@@ -44,6 +45,23 @@ function Home() {
             your unwavering support and belief in our vision has empowered us to create an unforgettable experience for students, teachers,
             and organizers alike. Thank you once again for being an integral part of Vinterbash 2024. Your partnership continues to make a 
             profound impact on our community and beyond.</p>
+             <div className="sponsorgrid">
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+                <img src={require("../assets/Sponsor.jpg")} alt="Sponsor"/>
+            </div>
              </div>
     </div>
   );
