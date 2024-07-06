@@ -1118,7 +1118,6 @@ form p {
   {
     margin-left: 7%;
     font-size: 4vw;
-    font-family: "Bebas Neue", sans-serif;
   }
   #selectedtype
   {
@@ -1128,7 +1127,5 @@ form p {
   font-size: 3vw;
   font-weight: 500;
   margin-top: 1%;
-  border: 2px solid #555;
-  font-family: "Acme", sans-serif;
   }
 }
