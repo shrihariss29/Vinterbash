@@ -329,6 +329,8 @@ hr {
   display: flex;
   justify-content: center;
   margin-bottom: 3%;
+  animation-name: fade;
+  animation-duration: 2s;
 }
 
 /*Imageform*/
@@ -1120,7 +1122,3 @@ form p {
     font-size: 1vw;
   }
 }
-
-
-
-
