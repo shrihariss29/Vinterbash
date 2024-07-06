@@ -5,7 +5,8 @@ const Registerform = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (password === 'tvb24wcr') {
+        console.log(password);
+        if (password === process.env.REACT_APP_PASSWORD) {
             window.open('https://forms.gle/WNRPjo7S4ZaYmp8a9', '_blank');
         } else {
             alert('Incorrect password');
