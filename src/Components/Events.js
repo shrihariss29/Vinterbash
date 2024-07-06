@@ -29,7 +29,7 @@ function Events()
     </div>
     <div className="eventbuttonflex">
     <div className="rulebook">
-    <p>Click here for the Official Rule book of Vinterbash '24</p>
+    <p>Click here for the Official Rule book of Vinterbash 2024</p>
     <a className="btn btn-primary register" id="rulesbutton" href="https://drive.google.com/file/d/1cLgOGE4AzXPK7Ud_XL5xBUh4BDDcgZ09/view?usp=drive_link" 
     target="_blank" rel="noreferrer">Rule Book</a>
     </div>
