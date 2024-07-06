@@ -61,7 +61,7 @@ function Schedule() {
       <h1 className="Leaderboard">Schedule</h1>
       <div className="filter">
         <label className="eventType">Filter by event type :  </label>
-        <select id="eventType" value={selectedType} onChange={handleTypeChange}>
+        <select id="selectedtype" value={selectedType} onChange={handleTypeChange}>
           <option value="All">All</option>
           <option value="Art">Art</option>
           <option value="Cinema">Cinema</option>

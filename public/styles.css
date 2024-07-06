@@ -721,15 +721,18 @@ form p {
 {
   margin-left: 15%;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 2.5vw;
+  font-size: 5vw;
 }
-#eventType
+#selectedtype
 {
-  margin-left: 1%;
-  width: 20%;
-  height: 1.8vw;
+  margin-left: 2%;
+  width: 30%;
+  height: 4vw;
+  font-size: 3vw;
+  font-weight: 500;
   margin-top: 1%;
   border: 2px solid #555;
+  font-family: "Acme", sans-serif;
 }
 .filter {
   display: flex;
