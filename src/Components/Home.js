@@ -2,11 +2,6 @@ import Carousel from "react-bootstrap/Carousel";
 function Home() {
   return (
     <div class="totalhome">
-      <div className="sponsor">
-        <img src={require("../assets/Sponsor.jpg")} alt="Sponsor" />
-        <img src={require("../assets/Sponsor.jpg")} alt="Sponsor" />
-        <img src={require("../assets/Sponsor.jpg")} alt="Sponsor" />
-      </div>
       <div id="homepage">
         <h1 id="Vinter">V I N T E R B A S H</h1>
         <h3 id="theme">WHERE CHAMPIONS RISE!</h3>
