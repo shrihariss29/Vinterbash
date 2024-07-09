@@ -41,6 +41,7 @@ function Home() {
             and organizers alike. Thank you once again for being an integral part of Vinterbash 2024. Your partnership continues to make a 
             profound impact on our community and beyond.</p>
              </div>
+              <img src='https://drive.google.com/uc?export=view&id=1nHW7yXu5v-1cOdXkDkZp-unTGMn3dxbl' alt="drive" />
     </div>
   );
 }
