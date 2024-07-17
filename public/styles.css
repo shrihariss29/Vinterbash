@@ -53,7 +53,7 @@ hr {
 }
 .linkfooter img {
   height: 651.2 px;
-  width: 159.5px;
+  width: 200px;
   margin-top: 3%;
 }
 .anchor {
@@ -247,7 +247,7 @@ hr {
   animation-name: fade;
   animation-duration: 1s;
   margin-bottom: 3%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 #theme {
