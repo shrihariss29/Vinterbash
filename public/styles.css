@@ -169,18 +169,18 @@ hr {
   animation-name: fade;
   animation-duration: 3s;
   background-color: #ff6500;
-  font-size: 3vw;
+  font-size: 2vw;
   width: 20%;
-  height:500%;
+  height:100%;
 }
 #rulesbutton
 {
   animation-name: fade;
   animation-duration: 3s;
   background-color: #ff6500;
-  font-size: 3vw;
-  width: fit-content;
-  height: fit-content;
+  font-size: 2vw;
+  width: 20%;
+  height:100%;
 }
 
 .rulebook {
@@ -284,7 +284,7 @@ hr {
 }
 
 .carousel {
-  margin-top: 2%;
+  margin-top: 4%;
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
@@ -322,15 +322,6 @@ hr {
   font-size: 3.5vw;
   animation-name: fade;
   animation-duration: 3.5s;
-}
-.lastdate
-{
-  font-family: "Alumni Sans", sans-serif;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 3%;
-  animation-name: fade;
-  animation-duration: 2s;
 }
 
 /*Imageform*/
@@ -793,13 +784,13 @@ form p {
   }
   #rulesbutton
   {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
   .eventbuttonflex a
   {
-  font-size: 4vw;
+  font-size: 3vw;
   width: 20%;
-  height: 25%;
+  height: 10%;
   }
   .eventflex ol {
     display: flex;
