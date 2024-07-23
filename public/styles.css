@@ -565,10 +565,9 @@ form p {
 }
 .sponsorgrid {
   display: grid;
-  gap: 20px;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, auto);
-  gap: 10px;
+  gap: 30px;
   margin: 20px;
 }
 .sponsorgrid img {
@@ -576,6 +575,7 @@ form p {
   height: 78.75px;
   border-radius: 5%;
 }
+
 
 /*Contact*/
 .Contacttext {
@@ -830,11 +830,6 @@ form p {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, auto);
     margin: 30px;
-  }
-  .sponsorgrid img {
-    width: 212.75px;
-    height: 78.75px;
-    border-radius: 5%;
   }
   .homesabout p {
     margin-left: -3%;
