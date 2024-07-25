@@ -730,6 +730,21 @@ form p {
   animation: fade;
   animation-duration: 3s;
 }
+.schoolimage p
+{
+  font-family: "Acme", sans-serif;
+  font-size: 1.5vw;
+  margin-left: 15%;
+  animation: fade;
+  animation-duration: 3s;
+}
+.schoolimage a
+{
+  margin-left: 15%;
+  animation: fade;
+  animation-duration: 3s;
+}
+
 
 @media (max-width: 1100px) {
   .linkfooter img 
@@ -1121,5 +1136,18 @@ form p {
   font-size: 3vw;
   font-weight: 500;
   margin-top: 1%;
+  }
+  .schoolimage p 
+  {
+    font-size: 2.25vw;
+    margin-left: 7%;
+  }
+  .schoolimage a
+  {
+    margin-left: 7%;
+    height: 7vw;
+    width: 16vw;
+    font-size: 3vw;
+
   }
 }
