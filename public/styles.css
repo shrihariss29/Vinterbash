@@ -730,19 +730,29 @@ form p {
   animation: fade;
   animation-duration: 3s;
 }
+.schoolimage img
+{
+  margin-left: 15%;
+  height: 10%;
+  width: 50%;
+}
+.schoolimage
+{
+  margin-top: 1%;
+  margin-right: 15%;
+  animation: fade;
+  animation-duration: 3s;
+}
 .schoolimage p
 {
   font-family: "Acme", sans-serif;
   font-size: 1.5vw;
   margin-left: 15%;
-  animation: fade;
-  animation-duration: 3s;
 }
 .schoolimage a
 {
   margin-left: 15%;
-  animation: fade;
-  animation-duration: 3s;
+  width: 20%;
 }
 
 
@@ -1137,6 +1147,18 @@ form p {
   font-weight: 500;
   margin-top: 1%;
   }
+  .schoolimage img
+  {
+   margin-left: 7%;
+   width: 90%;
+   margin-bottom: 5%;
+  }
+  .schoolimage
+{
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
   .schoolimage p 
   {
     font-size: 2.25vw;
@@ -1148,6 +1170,6 @@ form p {
     height: 7vw;
     width: 16vw;
     font-size: 3vw;
-
+    margin-top: 5%;
   }
 }
