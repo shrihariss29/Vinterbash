@@ -1,8 +1,5 @@
-// PasswordForm.js
-
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
 const passcodes = {
     "12345678": "Sri Vageesha Vidhyashram",
     "23456789": "Sri Vignesh Vidhyalaya",
