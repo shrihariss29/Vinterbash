@@ -10,6 +10,7 @@ import PasswordForm from './Components/Imageform';
 import Registerform from './Components/registerform';
 import ScoreCard from './Components/Scorecard';
 import Schedule from './Components/Schedule';
+import SchoolPage from './Components/SchoolPage';
 export default function App() {
   return (
     <BrowserRouter>
@@ -23,6 +24,7 @@ export default function App() {
         <Route path='registerform' element={<Registerform/>}/>
         <Route path='Scorecard' element={<ScoreCard/>}/>
         <Route path='Schedule' element={<Schedule/>}/>
+        <Route path="/school" element={<SchoolPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
