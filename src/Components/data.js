@@ -28,7 +28,7 @@ const data = [
 
   {
     position: '0',
-    name: 'Alpha Plus Matriculation Higher Secondary School',
+    name: 'Alpha Plus Matriculation HS School',
     points: '000',
     events: [
       { name: 'Event - I', points: '00' },
