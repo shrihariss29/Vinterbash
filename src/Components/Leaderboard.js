@@ -36,10 +36,10 @@ const SchoolRow = ({ school, events, isExpanded, onToggle }) => {
 const Table = ({ data }) => {
   const [expandedRows, setExpandedRows] = useState({});
 
-  const toggleRow = (position) => {
+  const toggleRow = (index) => {
     setExpandedRows((prev) => ({
       ...prev,
-      [position]: !prev[position],
+      [index]: !prev[index],
     }));
   };
 
@@ -58,8 +58,8 @@ const Table = ({ data }) => {
             key={index}
             school={school}
             events={school.events}
-            isExpanded={!!expandedRows[school.position]}
-            onToggle={() => toggleRow(school.position)}
+            isExpanded={!!expandedRows[index]}
+            onToggle={() => toggleRow(index)}
           />
         ))}
       </tbody>
@@ -78,39 +78,3 @@ function Leaderboard() {
 }
 
 export default Leaderboard;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
