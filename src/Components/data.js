@@ -37,7 +37,7 @@ const data = [
 
   {
     position: '0',
-    name: 'ST. JOAN OF ARC INTERNATIONAL SCHOOL',
+    name: 'St.Joan of Arc International School',
     points: '000',
     events: [
       { name: 'Event - I', points: '00' },
@@ -100,7 +100,7 @@ const data = [
 
   {
     position: '0',
-    name: 'Nava Bharath Vidhyalaya',
+    name: 'Navabarath Vidhyalaya',
     points: '000',
     events: [
       { name: 'Event - I', points: '00' },
