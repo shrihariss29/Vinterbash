@@ -134,14 +134,6 @@ const data = [
     ],
   },
 
-  {
-    position: '0',
-    name: 'Sri Vignesh Vidhyalaya',
-    points: '000',
-    events: [
-      { name: 'Event - I', points: '00' },
-    ],
-  },
   ]
 
 export default data;
