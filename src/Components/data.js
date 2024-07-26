@@ -100,15 +100,6 @@ const data = [
 
   {
     position: '0',
-    name: 'Navabarath Vidhyalaya',
-    points: '000',
-    events: [
-      { name: 'Event - I', points: '00' },
-    ],
-  },
-
-  {
-    position: '0',
     name: 'Kamala Niketan Montessari School',
     points: '000',
     events: [
