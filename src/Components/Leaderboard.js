@@ -71,7 +71,6 @@ function Leaderboard() {
   return (
     <div className="tabledata">
       <h1 className="Leaderboard">Leaderboard</h1>
-      <p>Leaderboard will be coming soon. Contact the organizers in case of any discrepancies</p>
       <Table data={data} />
     </div>
   );
