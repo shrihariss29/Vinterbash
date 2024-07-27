@@ -41,6 +41,13 @@ const footballMatches = [
     schoolsScore: "3-0 (FT)",
     school2Name: "Chinmaya",
   },
+  {
+    status: "Group stage game - 4 (Live)",
+    color: "#E76F51",
+    school1Name: "Alpha Wisdom ",
+    schoolsScore: "5-0 (HT)",
+    school2Name: "Brindhavan",
+  },
   
 ];
 
