@@ -101,9 +101,9 @@ const cricketMatches = [
     status: "Finals (Live)",
     color: "#E76F51",
     school1Name: "Vageesha",
-    school1Score: "37-1",
+    school1Score: "",
     school2Name: "Vignesh",
-    school2Score: "36-1",
+    school2Score: "",
   },
 ];
 
@@ -189,7 +189,7 @@ const footballMatches = [
     status: "FInals (Live)",
     color: "#E76F51",
     school1Name: "Alpha Wisodom ",
-    schoolsScore: "3-0(Ft)",
+    schoolsScore: "",
     school2Name: "Santhanam",
   },
 ];
