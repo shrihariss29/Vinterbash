@@ -137,6 +137,27 @@ const data = [
       { name: 'Event - I', points: '00' },
     ],
   },
+  {
+    position: '-',
+    name: 'The Higher Secondary School for Boys, Srirangam',
+    points: '00',
+    events: [
+      { name: 'Event - I', points: '00' },
+    ],
+  },
   ]
+  data.forEach(school => {
+    school.points = school.events.reduce((acc, event) => acc + parseInt(event.points), 0);
+  });
+  
+  data.sort((a, b) => parseInt(b.points) - parseInt(a.points));
 
+  let currentPosition = 1, currentPoints = null;
+  data.forEach((school, index) => {
+    if (school.points !== currentPoints) {
+      currentPosition = index + 1;
+      currentPoints = school.points;
+    }
+    school.position = currentPosition;
+  });
 export default data;
