@@ -1,6 +1,15 @@
 const data = [
   {
     position: '1',
+    name: 'Sri Akilandeswari Vidhyalaya',
+    points: '17',
+    events: [
+      { name: 'Nalamdhana - I', points: '10' },
+      { name: 'Aathi Idhu Adhu Illa? - II', points: '7'},
+    ],
+  },
+  {
+    position: '2',
     name: 'Kamala Niketan Montessari School',
     points: '14',
     events: [
@@ -9,15 +18,6 @@ const data = [
     ],
   },
   
-  {
-    position: '2',
-    name: 'Sri Akilandeswari Vidhyalaya',
-    points: '17',
-    events: [
-      { name: 'Nalamdhana - I', points: '10' },
-      { name: 'Aathi Idhu Adhu Illa? - II', points: '7'},
-    ],
-  },
   {
     position: '3',
     name: 'Santhanam Vidyalaya',
