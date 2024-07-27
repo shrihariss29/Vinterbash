@@ -102,7 +102,7 @@ const cricketMatches = [
     color: "#E76F51",
     school1Name: "Vageesha",
     school1Score: "28-6",
-    school2Name: "Vignesh",
+    school2Name: "Vignesh (Won)",
     school2Score: "29-5",
   },
 ];
