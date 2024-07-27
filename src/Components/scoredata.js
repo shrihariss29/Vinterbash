@@ -81,6 +81,22 @@ const cricketMatches = [
     school2Name: "SAV",
     school2Score: "18-6",
   },
+  {
+    status: "Semifinal - 1 (Completed)",
+    color: "#E76F51",
+    school1Name: "Vignesh Vidayalaya",
+    school1Score: "51-4 (Won)",
+    school2Name: "KNMS",
+    school2Score: "41-4",
+  },
+  {
+    status: "Semifinal - 2 (Completed)",
+    color: "#E76F51",
+    school1Name: "Vageesha",
+    school1Score: "37-1 (Won)",
+    school2Name: "Santhanam",
+    school2Score: "36-1",
+  },
 ];
 
 const footballMatches = [
@@ -146,6 +162,13 @@ const footballMatches = [
     school1Name: "TBHSS (Won) ",
     schoolsScore: "4-0 (FT)",
     school2Name: "KNMS",
+  },
+  {
+    status: "Semifinal - I (Completed)",
+    color: "#E76F51",
+    school1Name: "Santhanam (Won) ",
+    schoolsScore: "0-0 (FT), 6-5 Pen",
+    school2Name: "Vageesha",
   },
 ];
 
