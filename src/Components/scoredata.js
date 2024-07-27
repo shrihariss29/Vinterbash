@@ -140,6 +140,13 @@ const footballMatches = [
     schoolsScore: "2-1 (FT)",
     school2Name: "Alpha Cambridge",
   },
+  {
+    status: "Group stage game - 9 (Completed)",
+    color: "#E76F51",
+    school1Name: "TBHSS (Won) ",
+    schoolsScore: "4-0 (FT)",
+    school2Name: "KNMS",
+  },
 ];
 
 export { cricketMatches, footballMatches };
