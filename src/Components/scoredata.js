@@ -17,7 +17,7 @@ const cricketMatches = [
       status: "Group stage game (Live)",
       color: "#E76F51",
       school1Name: "Vageesha Vidhyashram",
-      schoolsScore: "3-0 (HT)",
+      schoolsScore: "5-0 (FT)",
       school2Name: "Sri Akilandeshwari Vidhyalaya",
       manOfTheMatch: ""
     },
