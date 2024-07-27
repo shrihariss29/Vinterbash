@@ -96,7 +96,7 @@ const events = [
     title: "Music",
     subtitle: "Chordially Yours : group music",
     type: "Single shot event",
-    time: "9:30 am to 11:30 am",
+    time: "Now showing",
     venue: "Main Stage",
     imgSrc: music,
   },
