@@ -16,7 +16,8 @@ const cricketMatches = [
     school1Score: "45-2(6)",
     school2Name: "Alpha international",
     school2Score: "24-5",
-  }
+  },
+ 
 ];
 
 const footballMatches = [
@@ -44,10 +45,11 @@ const footballMatches = [
   {
     status: "Group stage game - 4 (Live)",
     color: "#E76F51",
-    school1Name: "Alpha Wisdom ",
-    schoolsScore: "5-0 (HT)",
+    school1Name: "Alpha Wisdom (Won) ",
+    schoolsScore: "6-0 (FT)",
     school2Name: "Brindhavan",
   },
+  
   
 ];
 
