@@ -8,11 +8,27 @@ const data = [
     ],
   },
   {
+    position: '1',
+    name: 'Sri Akilandeswari Vidhyalaya',
+    points: '10',
+    events: [
+      { name: 'Nalamdhana - I', points: '10' },
+    ],
+  },
+  {
     position: '2',
     name: 'Sri Vignesh Vidhyalaya',
     points: '07',
     events: [
       { name: 'Chordially Yours : group music - II', points: '07' },
+    ],
+  },
+  {
+    position: '2',
+    name: 'Kamala Niketan Montessari School',
+    points: '07',
+    events: [
+      { name: 'Nalamdhana - II', points: '07' },
     ],
   },
   {
@@ -24,21 +40,14 @@ const data = [
     ],
   },
 
-  {
-    position: '-',
-    name: 'Sri Akilandeswari Vidhyalaya',
-    points: '00',
-    events: [
-      { name: 'Event - I', points: '00' },
-    ],
-  },
+
 
   {
-    position: '-',
+    position: '3',
     name: 'RSK Higher Secondary School',
-    points: '00',
+    points: '05',
     events: [
-      { name: 'Event - I', points: '00' },
+      { name: 'Nalamdhana - III', points: '05' },
     ],
   },
 
@@ -105,14 +114,6 @@ const data = [
     ],
   },
 
-  {
-    position: '-',
-    name: 'Kamala Niketan Montessari School',
-    points: '00',
-    events: [
-      { name: 'Event - I', points: '00' },
-    ],
-  },
 
   {
     position: '-',
