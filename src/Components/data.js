@@ -11,6 +11,9 @@ const data = [
       { name: 'Thirai 480 - III' , points: '03'},
       { name: 'Acoustic Nirvana - III', points : '05'}, 
       { name: 'Mozhiyamudham - III', points : '03'}, 
+      {name: "Think on your feet! - III", points: "03"},
+      {name: "Itihasas Quiz - I", points: "07"},
+      {name: "Itihasas Quiz - III", points: "03"},
     ],
   },
   {
@@ -21,7 +24,9 @@ const data = [
       { name: 'Nalamdhana - II', points: '07' },
       { name: 'The Triquizzard tournument - I', points: '07' },
       { name: 'Imitation Game - III', points: '05'},
-      { name: 'Mozhiyamudham - I', points : '07'}, 
+      { name: 'Mozhiyamudham - I', points : '07'},
+      {name:"Cartoon Verse Crossover - I", points:'07'},
+      {name: "Think on your feet! - I", points: "07"}, 
     ],
   },
   
@@ -34,6 +39,8 @@ const data = [
       { name: 'The Triquizzard tournament - III', points: '03' },
       {name: 'Multimedia Madness - III', points: '05'},
       { name: 'Thirai 480 - II' , points: '05'},
+      {name:"Python Prowess Quest - I", points:'07'}, 
+      {name:'Five Six Seven Eight - I', points: '10'}, 
     ],
   },
   
@@ -44,7 +51,8 @@ const data = [
     points: '10',
     events: [
       { name: 'Aathi Idhu Adhu Illa? - I', points: '10' },
-      {name: 'Multimedia Madness - III', points: '03'}, 
+      {name: 'Multimedia Madness - III', points: '03'},
+      {name:"Cartoon Verse Crossover - II", points:'05'},
     ],
   },
   {
@@ -55,7 +63,11 @@ const data = [
       { name: 'The Triquizzard tournament - II', points: '05' },
       {name : 'Aathi Idhu Adhu Illa? - III', points: '05'},
       { name: 'Acoustic Nirvana - I', points : '10'},
-      { name: 'Mozhiyamudham - II', points : '05'}, 
+      { name: 'Mozhiyamudham - II', points : '05'},
+      {name:"Python Prowess Quest - II", points:'05'},
+      {name: "Think on your feet! - II", points: "05"}, 
+      {name: "Itihasas Quiz - II", points: "05"},
+      { name : "Turf Cricket - II", points : '05'},
     ],
   },
   {
@@ -64,6 +76,8 @@ const data = [
     points: '07',
     events: [
       { name: 'Chordially Yours : group music - II', points: '07' },
+      {name:"Python Prowess Quest - III", points:'03'}, 
+      { name : "Turf Cricket - I", points : '07'},
     ],
   },
   {
@@ -73,7 +87,8 @@ const data = [
     events: [
       { name: 'Chordially Yours : group music - III', points: '05' },
       { name:'Thirai 480 - I', points: '07'},
-      { name: 'Acoustic Nirvana - II', points : '07'}, 
+      { name: 'Acoustic Nirvana - II', points : '07'},
+      {name:'Five Six Seven Eight - II', points: '07'},
     ],
   },
   {
@@ -84,6 +99,7 @@ const data = [
       { name: 'Nalamdhana - III', points: '05' },
       {name: 'Multimedia Madness - I', points:'07'},
       { name: 'What If Odessey? - II', points: '05' },
+      {name:"Cartoon Verse Crossover - III", points:'03'}
     ],
   },
 
@@ -150,7 +166,7 @@ const data = [
     name: 'Alpha Cambridge International',
     points: '00',
     events: [
-      { name: 'Event - I', points: '00' },
+      {name:'Five Six Seven Eight - III', points: '05'},
     ],
   },
   {
