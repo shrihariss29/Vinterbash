@@ -8,7 +8,6 @@ const cricketMatches = [
     school1Score: "47/1 (6)",
     school2Name: "St.Joan of Arc International School (Toss)",
     school2Score: "48/2(4.5)",
-    manOfTheMatch: ""
   }
 ];
 
@@ -19,7 +18,6 @@ const footballMatches = [
     school1Name: "Vageesha Vidhyashram",
     schoolsScore: "5-0 (FT)",
     school2Name: "Sri Akilandeshwari Vidhyalaya",
-    manOfTheMatch: ""
   },
   {
     status: "Group stage game (Live)",
@@ -27,7 +25,6 @@ const footballMatches = [
     school1Name: "RSK Higher secondary school",
     schoolsScore: "2-0 (HT)",
     school2Name: "Boys Higher Secondary School",
-    manOfTheMatch: ""
   },
   
 ];
