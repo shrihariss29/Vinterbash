@@ -74,6 +74,7 @@ const data = [
     events: [
       { name: 'Nalamdhana - III', points: '05' },
       {name: 'Multimedia Madness - I', points:'07'},
+      { name: 'What If Odessey? - II', points: '05' },
     ],
   },
 
@@ -112,7 +113,7 @@ const data = [
     name: 'Chinmaya Vidhyalaya',
     points: '00',
     events: [
-      { name: 'Event - I', points: '00' },
+      { name: 'What If Odessey? - III', points: '03' },
     ],
   },
 
@@ -130,7 +131,7 @@ const data = [
     name: 'Aurobindo International School',
     points: '00',
     events: [
-      { name: 'Event - I', points: '00' },
+      { name: 'What If Odessey? - I', points: '07' },
     ],
   },
 
