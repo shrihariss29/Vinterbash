@@ -84,17 +84,25 @@ const cricketMatches = [
   {
     status: "Semifinal - 1 (Completed)",
     color: "#E76F51",
-    school1Name: "Vignesh Vidayalaya",
-    school1Score: "51-4 (Won)",
+    school1Name: "Vignesh Vidayalaya (Won)",
+    school1Score: "51-4 ",
     school2Name: "KNMS",
     school2Score: "41-4",
   },
   {
     status: "Semifinal - 2 (Completed)",
     color: "#E76F51",
-    school1Name: "Vageesha",
-    school1Score: "37-1 (Won)",
+    school1Name: "Vageesha  (Won)",
+    school1Score: "37-1",
     school2Name: "Santhanam",
+    school2Score: "36-1",
+  },
+  {
+    status: "Finals (Live)",
+    color: "#E76F51",
+    school1Name: "Vageesha",
+    school1Score: "37-1",
+    school2Name: "Vignesh",
     school2Score: "36-1",
   },
 ];
@@ -169,6 +177,20 @@ const footballMatches = [
     school1Name: "Santhanam (Won) ",
     schoolsScore: "0-0 (FT), 6-5 Pen",
     school2Name: "Vageesha",
+  },
+  {
+    status: "Semifinal - II (Completed)",
+    color: "#E76F51",
+    school1Name: "Alpha Wisodom (Won) ",
+    schoolsScore: "3-0(Ft)",
+    school2Name: "Boys high school ",
+  },
+  {
+    status: "FInals (Live)",
+    color: "#E76F51",
+    school1Name: "Alpha Wisodom ",
+    schoolsScore: "3-0(Ft)",
+    school2Name: "Santhanam",
   },
 ];
 
