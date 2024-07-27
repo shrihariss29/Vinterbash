@@ -34,6 +34,13 @@ const footballMatches = [
     schoolsScore: "2-0 (FT)",
     school2Name: "Srirangam boys",
   },
+  {
+    status: "Group stage game (Completed)",
+    color: "#E76F51",
+    school1Name: "Santhanam (Won)",
+    schoolsScore: "2-0 (HT)",
+    school2Name: "Chinmaya",
+  },
   
 ];
 
