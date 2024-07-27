@@ -57,7 +57,14 @@ const cricketMatches = [
     school2Name: "Vageesha",
     school2Score: "16-0 (Won)",
   },
- 
+  {
+    status: "Group stage 6 over match - 8 (Completed)",
+    color: "#E76F51",
+    school1Name: "Akilandeswari",
+    school1Score: "44-5 (Won)",
+    school2Name: "Aurobindo",
+    school2Score: "31-2",
+  },
 ];
 
 const footballMatches = [
@@ -111,11 +118,11 @@ const footballMatches = [
     school2Name: "Vignesh",
   },
   {
-    status: "Group stage game - 8 (Live)",
+    status: "Group stage game - 8 (Completed)",
     color: "#E76F51",
-    school1Name: "Alpha Cambridge (Leading) ",
-    schoolsScore: "1-0 (HT)",
-    school2Name: "Santhanam",
+    school1Name: "Santhanam (Won) ",
+    schoolsScore: "2-1 (FT)",
+    school2Name: "Alpha Cambridge",
   },
 ];
 
