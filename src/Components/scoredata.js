@@ -6,8 +6,8 @@ const cricketMatches = [
       color: "#E76F51",
       school1Name: "Brindhavan Vidhyalaya",
       school1Score: "47/1 (6)",
-      school2Name: "St.Joan of Arc International School (Toss)",
-      school2Score: "Yet to bat",
+      school2Name: "St.Joan of Arc International School (Won)",
+      school2Score: "48/2",
       manOfTheMatch: ""
     }
   ];
