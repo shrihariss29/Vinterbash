@@ -8,6 +8,14 @@ const cricketMatches = [
     school1Score: "47/1 (6)",
     school2Name: "St.Joan (Won)",
     school2Score: "48/2(4.5)",
+  },
+  {
+    status: "Group stage 6 over match (Completed)",
+    color: "#E76F51",
+    school1Name: "MGCV",
+    school1Score: "45-2(6)",
+    school2Name: "Alpha international",
+    school2Score: "24-5",
   }
 ];
 
