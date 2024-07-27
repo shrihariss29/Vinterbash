@@ -12,7 +12,7 @@ const cricketMatches = [
   {
     status: "Group stage 6 over match (Completed)",
     color: "#E76F51",
-    school1Name: "MGCV",
+    school1Name: "MGCV (Won)",
     school1Score: "45-2(6)",
     school2Name: "Alpha international",
     school2Score: "24-5",
