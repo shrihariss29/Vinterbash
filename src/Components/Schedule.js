@@ -40,7 +40,7 @@ const events = [
     title: "Dance",
     subtitle: "Heels in the sky",
     type: "Two phased event",
-    time: "9:30 am to 11:00 am (Prelims), 5:00 pm to 06:00pm (Finals)",
+    time: "Prelims (Now Happening), 5:00 pm to 06:00pm (Finals)",
     venue: "Prelims : Seminar hall, Finals : main stage",
     imgSrc: dance,
   },
