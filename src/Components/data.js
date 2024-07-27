@@ -71,7 +71,7 @@ const cricketMatches = [
     school1Name: "Vignesh Vidyalaya",
     school1Score: "28-0 (Won)",
     school2Name: "MGCV",
-    school2Score: "31-2",
+    school2Score: "27-2",
   },
   {
     status: "Group stage 6 over match - 10 (Completed)",
