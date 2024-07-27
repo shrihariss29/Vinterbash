@@ -189,8 +189,8 @@ const footballMatches = [
     status: "3rd place match(Live)",
     color: "#E76F51",
     school1Name: "Vageesha ",
-    schoolsScore: "0-1 (HT)",
-    school2Name: "Boys high school",
+    schoolsScore: "0-1 (FT)",
+    school2Name: "Boys high school (Won)",
   },
   {
     status: "FInals (Live)",
