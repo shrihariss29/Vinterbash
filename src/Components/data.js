@@ -1,10 +1,26 @@
 const data = [
   {
-    position: '0',
-    name: 'Sri Vignesh Vidhyalaya',
-    points: '000',
+    position: '1',
+    name: 'Santhanam Vidyalaya',
+    points: '10',
     events: [
-      { name: 'Event - I', points: '00' },
+      { name: 'Chordially Yours : group music', points: '10' },
+    ],
+  },
+  {
+    position: '2',
+    name: 'Sri Vignesh Vidhyalaya',
+    points: '07',
+    events: [
+      { name: 'Chordially Yours : group music - II', points: '07' },
+    ],
+  },
+  {
+    position: '3',
+    name: 'Alpha wisdom CBSE School',
+    points: '05',
+    events: [
+      { name: 'Chordially Yours : group music - III', points: '05' },
     ],
   },
 
@@ -65,15 +81,6 @@ const data = [
   {
     position: '0',
     name: 'Sri Vignesh Public School',
-    points: '000',
-    events: [
-      { name: 'Event - I', points: '00' },
-    ],
-  },
-
-  {
-    position: '0',
-    name: 'Santhanam Vidyalaya',
     points: '000',
     events: [
       { name: 'Event - I', points: '00' },
