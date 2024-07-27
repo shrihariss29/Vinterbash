@@ -17,7 +17,7 @@ const data = [
   },
   {
     position: '3',
-    name: 'Alpha wisdom CBSE School',
+    name: 'Alpha wisdom Vidhyashram',
     points: '05',
     events: [
       { name: 'Chordially Yours : group music - III', points: '05' },
