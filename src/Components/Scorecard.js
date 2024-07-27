@@ -13,7 +13,6 @@ const Scard = ({ status, color, school1Name, school1Score, school2Name, school2S
         <h1>{school2Name}</h1>
         <h1>{school2Score}</h1>
       </div>
-      <h2>Man of the match : {manOfTheMatch}</h2>
     </div>
   );
 };
@@ -35,7 +34,6 @@ const ScoreCard = () => {
             school1Score={match.school1Score}
             school2Name={match.school2Name}
             school2Score={match.school2Score}
-            manOfTheMatch={match.manOfTheMatch}
           />
         ))}
       </div>
@@ -52,7 +50,6 @@ const ScoreCard = () => {
             <h1 className="footballscore">{match.schoolsScore}</h1>
             <h1>{match.school2Name}</h1>
           </div>
-          <h2>Man of the match : {match.manOfTheMatch}</h2>
         </div>
       ))}
     </div>
