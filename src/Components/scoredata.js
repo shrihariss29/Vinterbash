@@ -20,7 +20,7 @@ const footballMatches = [
     school2Name: "SAV",
   },
   {
-    status: "Group stage game (Live)",
+    status: "Group stage game (Completed)",
     color: "#E76F51",
     school1Name: "RSK (Won)",
     schoolsScore: "2-0 (FT)",
