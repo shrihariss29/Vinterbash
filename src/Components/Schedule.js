@@ -112,7 +112,7 @@ const events = [
     title: "Quiz",
     subtitle: "The Triquizzard Tournament",
     type: "Two phased event",
-    time: "9:30 am to 10:30 am (Prelims), 11:30 am to 01:30 pm (Finals)",
+    time: "Prelims (Now Happening), 11:30 am to 01:30 pm (Finals)",
     venue: "Prelims : IV-Sathyakaman, IV-Upakosalan, IV-Vysampayanan, Finals : Primary Block Conference Hall",
     imgSrc: quiz,
   },
