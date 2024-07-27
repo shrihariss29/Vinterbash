@@ -25,108 +25,108 @@ const data = [
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'Sri Akilandeswari Vidhyalaya',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'RSK Higher Secondary School',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'Alpha Plus Matriculation HS School',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'St.Joan of Arc International School',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'Brindavan Vidyalaya',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'Chinmaya Vidhyalaya',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'Sri Vignesh Public School',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'Aurobindo International School',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'Mahathma Gandhi Centenary Vidhyalaya',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'Kamala Niketan Montessari School',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'Alpha Cambridge International',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
   },
 
   {
-    position: '0',
+    position: '-',
     name: 'Sri Vageesha Vidhyashram',
-    points: '000',
+    points: '00',
     events: [
       { name: 'Event - I', points: '00' },
     ],
