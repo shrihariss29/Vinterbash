@@ -129,7 +129,7 @@ const events = [
     subtitle: "Vinter bowl-out (Cricket)",
     type: "Whole day event",
     time: "9:00 am to 6:00 pm",
-    venue: "Green Grass Turf",
+    venue: "Now playing",
     imgSrc: sport,
   },
   {
@@ -137,7 +137,7 @@ const events = [
     subtitle: "Vinter kick-off (Football)",
     type: "Whole day event",
     time: "9:00 am to 6:00 pm",
-    venue: "Green Grass Turf",
+    venue: "Now playing ",
     imgSrc: sport,
   },
   {
