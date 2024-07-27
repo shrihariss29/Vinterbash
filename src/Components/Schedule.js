@@ -153,7 +153,7 @@ const events = [
     subtitle: "Python prowess quest",
     type: "Two phased event",
     time: "10:00 am to 11:00 am (Prelims), 02:00 pm to 04:00 pm (Finals)",
-    venue: "Prelims and Finals : Computer Lab",
+    venue: "Prelims and Finals : Creya lab",
     imgSrc: tech,
   },
   {
