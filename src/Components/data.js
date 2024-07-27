@@ -40,7 +40,8 @@ const data = [
       {name: 'Multimedia Madness - III', points: '05'},
       { name: 'Thirai 480 - II' , points: '05'},
       {name:"Python Prowess Quest - I", points:'07'}, 
-      {name:'Five Six Seven Eight - I', points: '10'}, 
+      {name:'Five Six Seven Eight - I', points: '10'},
+      {name: 'Heels in the sky - II', points: '07'}, 
     ],
   },
   
@@ -89,6 +90,8 @@ const data = [
       { name:'Thirai 480 - I', points: '07'},
       { name: 'Acoustic Nirvana - II', points : '07'},
       {name:'Five Six Seven Eight - II', points: '07'},
+      {name: 'Heels in the sky - I', points: '10'},
+      {name: 'Heels in the sky - III', points: '05'}, 
     ],
   },
   {
