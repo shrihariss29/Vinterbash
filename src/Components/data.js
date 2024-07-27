@@ -8,25 +8,46 @@ const data = [
       { name: 'The Triquizzard tournument - I', points: '07' },
     ],
   },
+  
   {
     position: '2',
-    name: 'Santhanam Vidyalaya',
-    points: '13',
+    name: 'Sri Akilandeswari Vidhyalaya',
+    points: '17',
     events: [
-      { name: 'Chordially Yours : group music - I', points: '10' },
-      { name: 'The Triquizzard tournument - III', points: '03' },
+      { name: 'Nalamdhana - I', points: '10' },
+      { name: 'Aathi Idhu Adhu Illa? - II', points: '7'},
     ],
   },
   {
     position: '3',
-    name: 'Sri Akilandeswari Vidhyalaya',
+    name: 'Santhanam Vidyalaya',
+    points: '13',
+    events: [
+      { name: 'Chordially Yours : group music - I', points: '10' },
+      { name: 'The Triquizzard tournament - III', points: '03' },
+    ],
+  },
+  
+
+  {
+    position: '4',
+    name: 'Mahathma Gandhi Centenary Vidhyalaya',
     points: '10',
     events: [
-      { name: 'Nalamdhana - I', points: '10' },
+      { name: 'Aathi Idhu Adhu Illa? - I', points: '10' },
     ],
   },
   {
     position: '4',
+    name: 'Sri Vageesha Vidhyashram',
+    points: '10',
+    events: [
+      { name: 'The Triquizzard tournament - II', points: '05' },
+      {name : 'Aathi Idhu Adhu Illa? - III', points: '05'},
+    ],
+  },
+  {
+    position: '6',
     name: 'Sri Vignesh Vidhyalaya',
     points: '07',
     events: [
@@ -34,7 +55,7 @@ const data = [
     ],
   },
   {
-    position: '5',
+    position: '6',
     name: 'Alpha wisdom Vidhyashram',
     points: '05',
     events: [
@@ -43,14 +64,6 @@ const data = [
   },
   {
     position: '6',
-    name: 'Sri Vageesha Vidhyashram',
-    points: '05',
-    events: [
-      { name: 'The Triquizzard tournument - II', points: '05' },
-    ],
-  },
-  {
-    position: '7',
     name: 'RSK Higher Secondary School',
     points: '05',
     events: [
@@ -109,15 +122,6 @@ const data = [
   {
     position: '-',
     name: 'Aurobindo International School',
-    points: '00',
-    events: [
-      { name: 'Event - I', points: '00' },
-    ],
-  },
-
-  {
-    position: '-',
-    name: 'Mahathma Gandhi Centenary Vidhyalaya',
     points: '00',
     events: [
       { name: 'Event - I', points: '00' },
