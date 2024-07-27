@@ -8,7 +8,9 @@ const data = [
       { name: 'Aathi Idhu Adhu Illa? - II', points: '07'},
       { name: 'Imitation Game - I', points: '10'},
       { name: 'Imitation Game - II', points: '07'},
-      { name: 'Thirai 480 - IiI' , points: '03'},
+      { name: 'Thirai 480 - III' , points: '03'},
+      { name: 'Acoustic Nirvana - III', points : '05'}, 
+      { name: 'Mozhiyamudham - III', points : '03'}, 
     ],
   },
   {
@@ -19,6 +21,7 @@ const data = [
       { name: 'Nalamdhana - II', points: '07' },
       { name: 'The Triquizzard tournument - I', points: '07' },
       { name: 'Imitation Game - III', points: '05'},
+      { name: 'Mozhiyamudham - I', points : '07'}, 
     ],
   },
   
@@ -51,6 +54,8 @@ const data = [
     events: [
       { name: 'The Triquizzard tournament - II', points: '05' },
       {name : 'Aathi Idhu Adhu Illa? - III', points: '05'},
+      { name: 'Acoustic Nirvana - I', points : '10'},
+      { name: 'Mozhiyamudham - II', points : '05'}, 
     ],
   },
   {
@@ -68,6 +73,7 @@ const data = [
     events: [
       { name: 'Chordially Yours : group music - III', points: '05' },
       { name:'Thirai 480 - I', points: '07'},
+      { name: 'Acoustic Nirvana - II', points : '07'}, 
     ],
   },
   {
