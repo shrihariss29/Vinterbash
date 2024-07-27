@@ -1,145 +1,170 @@
-// scoredata.js
+const data = [
+  {
+    position: '1',
+    name: 'Sri Akilandeswari Vidyalaya',
+    points: '17',
+    events: [
+      { name: 'Nalamdhana - I', points: '10' },
+      { name: 'Aathi Idhu Adhu Illa? - II', points: '07'},
+      { name: 'Imitation Game - I', points: '10'},
+      { name: 'Imitation Game - II', points: '07'},
+    ],
+  },
+  {
+    position: '2',
+    name: 'Kamala Niketan Montessari School',
+    points: '14',
+    events: [
+      { name: 'Nalamdhana - II', points: '07' },
+      { name: 'The Triquizzard tournument - I', points: '07' },
+      { name: 'Imitation Game - III', points: '05'},
+    ],
+  },
+  
+  {
+    position: '3',
+    name: 'Santhanam Vidyalaya',
+    points: '13',
+    events: [
+      { name: 'Chordially Yours : group music - I', points: '10' },
+      { name: 'The Triquizzard tournament - III', points: '03' },
+      {name: 'Multimedia Madness - III', points: '05'},
+    ],
+  },
+  
 
-const cricketMatches = [
   {
-    status: "Group stage 6 over match - 1 (Completed)",
-    color: "#E76F51",
-    school1Name: "Brindhavan",
-    school1Score: "47/1",
-    school2Name: "St.Joan (Won)",
-    school2Score: "48/2",
+    position: '4',
+    name: 'Mahathma Gandhi Centenary Vidhyalaya',
+    points: '10',
+    events: [
+      { name: 'Aathi Idhu Adhu Illa? - I', points: '10' },
+      {name: 'Multimedia Madness - III', points: '03'}, 
+    ],
   },
   {
-    status: "Group stage 6 over match - 2 (Completed)",
-    color: "#E76F51",
-    school1Name: "MGCV (Won)",
-    school1Score: "45-2",
-    school2Name: "Alpha international",
-    school2Score: "24-5",
+    position: '4',
+    name: 'Sri Vageesha Vidhyashram',
+    points: '10',
+    events: [
+      { name: 'The Triquizzard tournament - II', points: '05' },
+      {name : 'Aathi Idhu Adhu Illa? - III', points: '05'},
+    ],
   },
   {
-    status: "Group stage 6 over match - 3 (Completed)",
-    color: "#E76F51",
-    school1Name: "Chinmaya",
-    school1Score: "39-1",
-    school2Name: "SAV (Won)",
-    school2Score: "40-3",
+    position: '6',
+    name: 'Sri Vignesh Vidhyalaya',
+    points: '07',
+    events: [
+      { name: 'Chordially Yours : group music - II', points: '07' },
+    ],
   },
   {
-    status: "Group stage 6 over match - 4 (Completed)",
-    color: "#E76F51",
-    school1Name: "Vignesh vidhyalaya (Won)",
-    school1Score: "73-0",
-    school2Name: "Alpha wisdom",
-    school2Score: "17-6",
+    position: '7',
+    name: 'Alpha wisdom Vidhyashram',
+    points: '05',
+    events: [
+      { name: 'Chordially Yours : group music - III', points: '05' },
+    ],
   },
   {
-    status: "Group stage 6 over match - 5 (Completed)",
-    color: "#E76F51",
-    school1Name: "RSK",
-    school1Score: "30-3",
-    school2Name: "Santhanam (Won)",
-    school2Score: "33-1",
+    position: '7',
+    name: 'RSK Higher Secondary School',
+    points: '05',
+    events: [
+      { name: 'Nalamdhana - III', points: '05' },
+      {name: 'Multimedia Madness - I', points:'07'},
+      { name: 'What If Odessey? - II', points: '05' },
+    ],
   },
-  {
-    status: "Group stage 6 over match - 6 (Completed)",
-    color: "#E76F51",
-    school1Name: "Vignesh Public",
-    school1Score: "8-6",
-    school2Name: "KNMS",
-    school2Score: "9-0 (Won)",
-  },
-  {
-    status: "Group stage 6 over match - 7 (Completed)",
-    color: "#E76F51",
-    school1Name: "St.Joan",
-    school1Score: "15-6",
-    school2Name: "Vageesha",
-    school2Score: "16-0 (Won)",
-  },
-  {
-    status: "Group stage 6 over match - 8 (Completed)",
-    color: "#E76F51",
-    school1Name: "Akilandeswari",
-    school1Score: "44-5 (Won)",
-    school2Name: "Aurobindo",
-    school2Score: "31-2",
-  },
-  {
-    status: "Group stage 6 over match - 9 (Completed)",
-    color: "#E76F51",
-    school1Name: "Vignesh Vidyalaya",
-    school1Score: "28-0 (Won)",
-    school2Name: "MGCV",
-    school2Score: "27-2",
-  },
-  {
-    status: "Group stage 6 over match - 10 (Completed)",
-    color: "#E76F51",
-    school1Name: "Santhanam",
-    school1Score: "36-6 (Won)",
-    school2Name: "SAV",
-    school2Score: "18-6",
-  },
-];
 
-const footballMatches = [
-  {
-    status: "Group stage game - 1 (Completed)",
-    color: "#E76F51",
-    school1Name: "Vageesha (Won)",
-    schoolsScore: "5-0 (FT)",
-    school2Name: "SAV",
-  },
-  {
-    status: "Group stage game - 2 (Completed)",
-    color: "#E76F51",
-    school1Name: "RSK (Won)",
-    schoolsScore: "2-0 (FT)",
-    school2Name: "Srirangam boys",
-  },
-  {
-    status: "Group stage game - 3 (Completed)",
-    color: "#E76F51",
-    school1Name: "Santhanam (Won)",
-    schoolsScore: "3-0 (FT)",
-    school2Name: "Chinmaya",
-  },
-  {
-    status: "Group stage game - 4 (Completed)",
-    color: "#E76F51",
-    school1Name: "Alpha Wisdom (Won) ",
-    schoolsScore: "6-0 (FT)",
-    school2Name: "Brindhavan",
-  },
-  {
-    status: "Group stage game - 5 (Completed)",
-    color: "#E76F51",
-    school1Name: "Alpha Cambridge (Won) ",
-    schoolsScore: "1-0 (FT)",
-    school2Name: "Aurobindo",
-  },
-  {
-    status: "Group stage game - 6 (Completed)",
-    color: "#E76F51",
-    school1Name: "KNMS (Won) ",
-    schoolsScore: "3-2 (FT)",
-    school2Name: "St. Joan of Arc",
-  },
-  {
-    status: "Group stage game - 7 (Completed)",
-    color: "#E76F51",
-    school1Name: "Vageesha (Won) ",
-    schoolsScore: "2-1 (FT)",
-    school2Name: "Vignesh",
-  },
-  {
-    status: "Group stage game - 8 (Completed)",
-    color: "#E76F51",
-    school1Name: "Santhanam (Won) ",
-    schoolsScore: "2-1 (FT)",
-    school2Name: "Alpha Cambridge",
-  },
-];
 
-export { cricketMatches, footballMatches };
+
+
+  {
+    position: '-',
+    name: 'Alpha Plus Matriculation HS School',
+    points: '00',
+    events: [
+      { name: 'Event - I', points: '00' },
+    ],
+  },
+
+  {
+    position: '-',
+    name: 'St.Joan of Arc International School',
+    points: '00',
+    events: [
+      { name: 'Event - I', points: '00' },
+    ],
+  },
+
+  {
+    position: '-',
+    name: 'Brindavan Vidyalaya',
+    points: '00',
+    events: [
+      { name: 'Event - I', points: '00' },
+    ],
+  },
+
+  {
+    position: '-',
+    name: 'Chinmaya Vidhyalaya',
+    points: '00',
+    events: [
+      { name: 'What If Odessey? - III', points: '03' },
+    ],
+  },
+
+  {
+    position: '-',
+    name: 'Sri Vignesh Public School',
+    points: '00',
+    events: [
+      { name: 'Event - I', points: '00' },
+    ],
+  },
+
+  {
+    position: '-',
+    name: 'Aurobindo International School',
+    points: '00',
+    events: [
+      { name: 'What If Odessey? - I', points: '07' },
+    ],
+  },
+
+
+  {
+    position: '-',
+    name: 'Alpha Cambridge International',
+    points: '00',
+    events: [
+      { name: 'Event - I', points: '00' },
+    ],
+  },
+  {
+    position: '-',
+    name: 'The Higher Secondary School for Boys, Srirangam',
+    points: '00',
+    events: [
+      { name: 'Event - I', points: '00' },
+    ],
+  },
+  ]
+  data.forEach(school => {
+    school.points = school.events.reduce((acc, event) => acc + parseInt(event.points), 0);
+  });
+  
+  data.sort((a, b) => parseInt(b.points) - parseInt(a.points));
+
+  let currentPosition = 1, currentPoints = null;
+  data.forEach((school, index) => {
+    if (school.points !== currentPoints) {
+      currentPosition = index + 1;
+      currentPoints = school.points;
+    }
+    school.position = currentPosition;
+  });
+export default data;
