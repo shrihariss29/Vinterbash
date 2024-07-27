@@ -1,7 +1,7 @@
 const data = [
   {
     position: '1',
-    name: 'Sri Akilandeswari Vidhyalaya',
+    name: 'Sri Akilandeswari Vidyalaya',
     points: '17',
     events: [
       { name: 'Nalamdhana - I', points: '10' },
