@@ -55,7 +55,7 @@ const data = [
     ],
   },
   {
-    position: '6',
+    position: '7',
     name: 'Alpha wisdom Vidhyashram',
     points: '05',
     events: [
@@ -63,7 +63,7 @@ const data = [
     ],
   },
   {
-    position: '6',
+    position: '7',
     name: 'RSK Higher Secondary School',
     points: '05',
     events: [
