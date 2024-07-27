@@ -15,7 +15,7 @@ const footballMatches = [
   {
     status: "Group stage game (Completed)",
     color: "#E76F51",
-    school1Name: "Vageesha Vidhyashram",
+    school1Name: "Sri Vageesha Vidhyashram",
     schoolsScore: "5-0 (FT)",
     school2Name: "Sri Akilandeshwari Vidhyalaya",
   },
