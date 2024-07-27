@@ -83,14 +83,40 @@ const footballMatches = [
     school2Name: "Chinmaya",
   },
   {
-    status: "Group stage game - 4 (Live)",
+    status: "Group stage game - 4 (Completed)",
     color: "#E76F51",
     school1Name: "Alpha Wisdom (Won) ",
     schoolsScore: "6-0 (FT)",
     school2Name: "Brindhavan",
   },
-  
-  
+  {
+    status: "Group stage game - 5 (Completed)",
+    color: "#E76F51",
+    school1Name: "Alpha Cambridge (Won) ",
+    schoolsScore: "1-0 (FT)",
+    school2Name: "Aurobindo",
+  },
+  {
+    status: "Group stage game - 6 (Completed)",
+    color: "#E76F51",
+    school1Name: "KNMS (Won) ",
+    schoolsScore: "3-2 (FT)",
+    school2Name: "St. Joan of Arc",
+  },
+  {
+    status: "Group stage game - 7 (Completed)",
+    color: "#E76F51",
+    school1Name: "Vageesha (Won) ",
+    schoolsScore: "2-1 (FT)",
+    school2Name: "Vignesh",
+  },
+  {
+    status: "Group stage game - 8 (Live)",
+    color: "#E76F51",
+    school1Name: "Alpha Cambridge (Leading) ",
+    schoolsScore: "1-0 (HT)",
+    school2Name: "Santhanam",
+  },
 ];
 
 export { cricketMatches, footballMatches };
