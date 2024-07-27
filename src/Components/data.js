@@ -4,7 +4,7 @@ const data = [
     name: 'Santhanam Vidyalaya',
     points: '10',
     events: [
-      { name: 'Chordially Yours : group music', points: '10' },
+      { name: 'Chordially Yours : group music - I', points: '10' },
     ],
   },
   {
