@@ -27,6 +27,8 @@ const data = [
       { name: 'Mozhiyamudham - I', points : '07'},
       {name:"Cartoon Verse Crossover - I", points:'07'},
       {name: "Think on your feet! - I", points: "07"}, 
+      {name: "Mr.Vinterbash", points: "15"},
+    {name: "Ms.Vinterbash", points: "15"},
     ],
   },
   
