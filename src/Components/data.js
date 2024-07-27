@@ -1,14 +1,24 @@
 const data = [
   {
     position: '1',
-    name: 'Santhanam Vidyalaya',
-    points: '10',
+    name: 'Kamala Niketan Montessari School',
+    points: '14',
     events: [
-      { name: 'Chordially Yours : group music - I', points: '10' },
+      { name: 'Nalamdhana - II', points: '07' },
+      { name: 'The Triquizzard tournument - I', points: '07' },
     ],
   },
   {
-    position: '1',
+    position: '2',
+    name: 'Santhanam Vidyalaya',
+    points: '13',
+    events: [
+      { name: 'Chordially Yours : group music - I', points: '10' },
+      { name: 'The Triquizzard tournument - III', points: '03' },
+    ],
+  },
+  {
+    position: '3',
     name: 'Sri Akilandeswari Vidhyalaya',
     points: '10',
     events: [
@@ -16,7 +26,7 @@ const data = [
     ],
   },
   {
-    position: '2',
+    position: '4',
     name: 'Sri Vignesh Vidhyalaya',
     points: '07',
     events: [
@@ -24,32 +34,32 @@ const data = [
     ],
   },
   {
-    position: '2',
-    name: 'Kamala Niketan Montessari School',
-    points: '07',
-    events: [
-      { name: 'Nalamdhana - II', points: '07' },
-    ],
-  },
-  {
-    position: '3',
+    position: '5',
     name: 'Alpha wisdom Vidhyashram',
     points: '05',
     events: [
       { name: 'Chordially Yours : group music - III', points: '05' },
     ],
   },
-
-
-
   {
-    position: '3',
+    position: '6',
+    name: 'Sri Vageesha Vidhyashram',
+    points: '05',
+    events: [
+      { name: 'The Triquizzard tournument - II', points: '05' },
+    ],
+  },
+  {
+    position: '7',
     name: 'RSK Higher Secondary School',
     points: '05',
     events: [
       { name: 'Nalamdhana - III', points: '05' },
     ],
   },
+
+
+
 
   {
     position: '-',
@@ -123,16 +133,6 @@ const data = [
       { name: 'Event - I', points: '00' },
     ],
   },
-
-  {
-    position: '-',
-    name: 'Sri Vageesha Vidhyashram',
-    points: '00',
-    events: [
-      { name: 'Event - I', points: '00' },
-    ],
-  },
-
   ]
 
 export default data;
