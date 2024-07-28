@@ -10,7 +10,6 @@ import sport from "../assets/sport.jpg";
 import tamillits from "../assets/tamillits.jpg";
 import tech from "../assets/tech.jpg";
 import eventvinterlogo from "../assets/eventvinterlogo.jpg";
-
 const events = [
   {
     title: "Art",
@@ -40,7 +39,7 @@ const events = [
     title: "Dance",
     subtitle: "Heels in the sky",
     type: "Two phased event",
-    time: "Prelims (Now Happening), 5:00 pm to 06:00pm (Finals)",
+    time: "9:30 am to 11:00 am (Prelims), 5:00 pm to 06:00pm (Finals)",
     venue: "Prelims : Seminar hall, Finals : main stage",
     imgSrc: dance,
   },
@@ -96,7 +95,7 @@ const events = [
     title: "Music",
     subtitle: "Chordially Yours : group music",
     type: "Single shot event",
-    time: "Now showing",
+    time: "9:30 am to 11:30 am",
     venue: "Main Stage",
     imgSrc: music,
   },
@@ -112,7 +111,7 @@ const events = [
     title: "Quiz",
     subtitle: "The Triquizzard Tournament",
     type: "Two phased event",
-    time: "Prelims (Now Happening), 11:30 am to 01:30 pm (Finals)",
+    time: "9:30 am to 10:30 am (Prelims), 11:30 am to 01:30 pm (Finals)",
     venue: "Prelims : IV-Sathyakaman, IV-Upakosalan, IV-Vysampayanan, Finals : Primary Block Conference Hall",
     imgSrc: quiz,
   },
@@ -129,7 +128,7 @@ const events = [
     subtitle: "Vinter bowl-out (Cricket)",
     type: "Whole day event",
     time: "9:00 am to 6:00 pm",
-    venue: "Now playing",
+    venue: "Green Grass Turf",
     imgSrc: sport,
   },
   {
@@ -137,7 +136,7 @@ const events = [
     subtitle: "Vinter kick-off (Football)",
     type: "Whole day event",
     time: "9:00 am to 6:00 pm",
-    venue: "Now playing ",
+    venue: "Green Grass Turf",
     imgSrc: sport,
   },
   {
@@ -153,7 +152,7 @@ const events = [
     subtitle: "Python prowess quest",
     type: "Two phased event",
     time: "10:00 am to 11:00 am (Prelims), 02:00 pm to 04:00 pm (Finals)",
-    venue: "Prelims and Finals : Creya lab",
+    venue: "Prelims and Finals : Computer Lab",
     imgSrc: tech,
   },
   {
@@ -165,19 +164,15 @@ const events = [
     imgSrc: eventvinterlogo,
   },
 ];
-
 function Schedule() {
   const [selectedType, setSelectedType] = useState("All");
-
   const handleTypeChange = (event) => {
     setSelectedType(event.target.value);
   };
-
   const filteredEvents =
     selectedType === "All"
       ? events
       : events.filter((event) => event.title === selectedType);
-
   const ScheduleCard = ({ title, subtitle, type, time, venue, imgSrc }) => (
     <div className="schedulecard">
       <img src={imgSrc} alt={title} />
@@ -190,7 +185,6 @@ function Schedule() {
       </div>
     </div>
   );
-
   return (
     <div>
       <h1 className="Leaderboard">Schedule</h1>
@@ -231,5 +225,4 @@ function Schedule() {
     </div>
   );
 }
-
 export default Schedule;
