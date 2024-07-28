@@ -102,7 +102,7 @@ const cricketMatches = [
     color: "#E76F51",
     school1Name: "Vageesha",
     school1Score: "28-6",
-    school2Name: "Vignesh (Won)",
+    school2Name: "Vignesh (Champions)",
     school2Score: "29-5",
   },
 ];
@@ -186,16 +186,16 @@ const footballMatches = [
     school2Name: "Boys high school ",
   },
   {
-    status: "3rd place match(Live)",
+    status: "3rd place match(Completed)",
     color: "#E76F51",
     school1Name: "Vageesha ",
     schoolsScore: "0-1 (FT)",
     school2Name: "Boys high school (Won)",
   },
   {
-    status: "FInals (Live)",
+    status: "Finals (Completed)",
     color: "#E76F51",
-    school1Name: "Alpha Wisodom ",
+    school1Name: "Alpha Wisodom (Champions)",
     schoolsScore: "",
     school2Name: "Santhanam",
   },
