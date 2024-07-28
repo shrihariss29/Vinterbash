@@ -178,7 +178,7 @@ const data = [
   },
   {
     position: '-',
-    name: 'The Higher Secondary School for Boys, Srirangam',
+    name: 'Government boys higher secondary school',
     points: '00',
     events: [
       {name:'Turf Football - III', points : '03'},
