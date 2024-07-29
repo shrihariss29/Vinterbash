@@ -99,7 +99,7 @@ const SchoolPage = () => {
             <h1 className='Leaderboard'>Thank you, {school}</h1>
             <p>Your support and cooperation has been immense for this edition of Vinterbash. We were much elated with your presence.
             So we have tried our best to give you the moments you spent with us. This is a new effort from us, doing it for the first time in Trichy.
-            We have given the download link below. As the pictures are of highest quality, the file size will be large.</p>
+            We've given the download link below. As the pictures are of highest quality, the file size will be large.</p>
             {driveLink ? (
                 <a href={driveLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">Download</a>
             ) : (
