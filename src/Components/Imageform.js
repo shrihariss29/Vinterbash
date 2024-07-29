@@ -2,20 +2,22 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 const passcodes = {
    "ab1c2def": "Sri Vageesha Vidhyashram",
-   "g3h4ijkl": "Sri Vignesh Vidhyalaya",
-   "m5n6opqr": "Sri Akilandeswari Vidhyalaya",
-   "st7u8vwx": "RSK Higher Secondary School",
-   "yz9a0bcd": "Alpha Plus Matriculation Higher Secondary School",
-   "ef1g2hij": "ST. JOAN OF ARC INTERNATIONAL SCHOOL",
-   "kl3m4nop": "Brindavan Vidyalaya",
-   "qr5s6tuv": "Chinmaya Vidhyalaya",
-   "wx7y8zab": "Sri Vignesh Public School",
-   "cd9e0fgh": "Santhanam Vidyalaya",
-   "ij1k2lmn": "Aurobindo International School",
-   "op3q4rst": "Mahathma Gandhi Centenary Vidhyalaya",
-   "uv5w6xyz": "Nava Barath Vidhyalaya",
-   "ab7c8def": "Kamala Niketan Montessari School",
-   "gh9i0jkl": "Alpha Cambridge International"
+"g3h4ijkl": "Sri Vignesh Vidhyalaya",
+"m5n6opqr": "Sri Akilandeswari Vidhyalaya",
+"st7u8vwx": "RSK Higher Secondary School",
+"yz9a0bcd": "Alpha Plus Matriculation Higher Secondary School",
+"ef1g2hij": "ST. JOAN OF ARC INTERNATIONAL SCHOOL",
+"kl3m4nop": "Brindavan Vidyalaya",
+"qr5s6tuv": "Chinmaya Vidhyalaya",
+"wx7y8zab": "Sri Vignesh Public School",
+"cd9e0fgh": "Santhanam Vidyalaya",
+"ij1k2lmn": "Aurobindo International School",
+"op3q4rst": "Mahathma Gandhi Centenary Vidhyalaya",
+"ab7c8def": "Kamala Niketan Montessari School",
+"gh9i0jkl": "Alpha Cambridge International",
+"mn1o2pqr": "Alpha Wisdom Vidhyashram",
+"st3u4vwx": "Govt Boys School, Srirangam",
+"WEAREOSA" : "Old Student Association"
 };
 
 const PasswordForm = () => {
