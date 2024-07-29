@@ -10,7 +10,7 @@ const Osagallery = () => {
         Your support and cooperation has been immense for this edition of
         Vinterbash. We were much elated with your presence. So we have tried our
         best to give you the moments you spent with us. This is a new effort
-        from us, doing it for the first time in Trichy. We have given the
+        from us, doing it for the first time in Trichy. We've given the
         download link below. As the pictures are of highest quality, the file
         size will be large.
       </p>
@@ -65,7 +65,7 @@ const Osagallery = () => {
       >Quiz</a>
       <a
         href="https://drive.google.com/drive/u/3/folders/1AmFp7FMTwv4tVq2bFJeaGV0rZEaWUl2J"
-        className="btn btn-primary"
+        className="btn btn-primary"x
         target="_blank"
         rel="noopener noreferrer"
       >English lits</a>
