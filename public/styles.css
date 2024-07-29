@@ -781,7 +781,19 @@ form p {
   margin-left: 15%;
   width: 20%;
 }
-
+.osabuttons
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 12%;
+  gap:5%;
+}
+.osabuttons a
+{
+  width:12vw;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5vw;
+}
 
 @media (max-width: 1100px) {
   .orgcre
@@ -1202,5 +1214,14 @@ form p {
     width: 16vw;
     font-size: 3vw;
     margin-top: 5%;
+  }
+  .osabuttons
+  {
+    margin-left: 6%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .osabuttons a
+  {
+   width: 20vw;
   }
 }
