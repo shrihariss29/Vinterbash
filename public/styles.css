@@ -776,6 +776,10 @@ form p {
   font-size: 1.5vw;
   margin-left: 15%;
 }
+.schoolimage a 
+{
+  margin-left: 15%;
+}
 .osabuttons
 {
   display: grid;
@@ -1203,6 +1207,10 @@ form p {
     font-size: 2.25vw;
     margin-left: 7%;
     margin-bottom: 5%;
+  }
+  .schoolimage a 
+  {
+    margin-left: 7%;
   }
   .osabuttons
   {
