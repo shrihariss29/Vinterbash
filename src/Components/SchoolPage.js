@@ -5,7 +5,7 @@ import osagal from "../assets/osagal.jpg";
 
 const schoolLinks = {
     "Sri Vageesha Vidhyashram": {
-        driveLink: 'https://drive.google.com/file/d/1GnkYNO1oSirCotaWj6zPIqUOLLTDl2az/view?usp=drive_link',
+        driveLink: 'https://drive.google.com/drive/u/3/folders/19je36sagWUlAD8ISWM83ioYnb5YBtpsG',
         image: srivv
     },
     "Sri Vignesh Vidhyalaya": {
