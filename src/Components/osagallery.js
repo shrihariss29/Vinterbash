@@ -51,12 +51,7 @@ const Osagallery = () => {
         target="_blank"
         rel="noopener noreferrer"
       >Dramatics</a>
-       <a
-        href="https://drive.google.com/drive/u/3/folders/1Ibe2BN6kjwJPF0TYgz4F-bm1uTDdzqF0"
-        className="btn btn-primary"
-        target="_blank"
-        rel="noopener noreferrer"
-      >Miscellaneous</a>
+       
        <a
         href="https://drive.google.com/drive/u/3/folders/1R1hmnSlpNKKn4OI4WG7wKg4JxrxSzpui"
         className="btn btn-primary"
