@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import srivv from "../assets/pic2.jpg";
+import srivv from "../assets/srivv.JPG";
 import osagal from "../assets/osagal.jpg";
-
+import sav from "../assets/sav.JPG";
+import knms from "../assets/knms.JPG";
+import santhanam from "../assets/santhanam.JPG"
 const schoolLinks = {
     "Sri Vageesha Vidhyashram": {
-        driveLink: 'https://drive.google.com/drive/u/3/folders/19je36sagWUlAD8ISWM83ioYnb5YBtpsG',
+        driveLink: 'https://drive.google.com/drive/folders/1kJxaV8lWQpIvs5cZG6GraXGfJ56u1hV8?usp=sharing',
         image: srivv
     },
     "Sri Vignesh Vidhyalaya": {
@@ -13,8 +15,8 @@ const schoolLinks = {
         image: 'https://via.placeholder.com/150?text=Sri+Vignesh'
     },
     "Sri Akilandeswari Vidhyalaya": {
-        driveLink: 'https://example.com/SAV',
-        image: 'https://via.placeholder.com/150?text=Sri+Akilandeswari'
+        driveLink: 'https://drive.google.com/drive/folders/11BMzugLprXNTfPxVVj9oaRYgck66rqnV?usp=sharing',
+        image: sav
     },
     "RSK Higher Secondary School": {
         driveLink: 'https://example.com/RSK',
@@ -41,8 +43,8 @@ const schoolLinks = {
         image: 'https://via.placeholder.com/150?text=Sri+Vignesh+Public'
     },
     "Santhanam Vidyalaya": {
-        driveLink: 'https://example.com/Santhanam',
-        image: 'https://via.placeholder.com/150?text=Santhanam'
+        driveLink: 'https://drive.google.com/drive/folders/1CBpS_D65dPMo-C28ivTinnolGA0wTj5P?usp=sharing',
+        image: santhanam
     },
     "Aurobindo International School": {
         driveLink: 'https://example.com/Aurobindo',
@@ -53,8 +55,8 @@ const schoolLinks = {
         image: 'https://via.placeholder.com/150?text=MGCV'
     },
     "Kamala Niketan Montessari School": {
-        driveLink: 'https://example.com/knms',
-        image: 'https://via.placeholder.com/150?text=KNMS'
+        driveLink: 'https://drive.google.com/drive/folders/1XKSXD4GV0xV6Kse1I5_motQw_ezcHVFg?usp=sharing',
+        image: knms
     },
     "Alpha Cambridge International": {
         driveLink: 'https://example.com/alpha',
