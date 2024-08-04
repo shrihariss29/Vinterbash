@@ -4,71 +4,83 @@ import srivv from "../assets/srivv.JPG";
 import osagal from "../assets/osagal.jpg";
 import sav from "../assets/sav.JPG";
 import knms from "../assets/knms.JPG";
-import santhanam from "../assets/santhanam.JPG"
+import santhanam from "../assets/santhanam.JPG";
+import vignesh from "../assets/vignesh.JPG";
+import rsk from "../assets/rsk.JPG";
+import alphamat from "../assets/alphamat.JPG";
+import stjoin from "../assets/stjoin.JPG";
+import brindhavan from "../assets/brindhavan.JPG";
+import chinmaya from "../assets/chinmaya.JPG";
+import vigneshpublic from "../assets/vigneshpublic.JPG";
+import aurobindo from "../assets/aurobindo.JPG";
+import mgcv from "../assets/mgcv.JPG";
+import alphacam from "../assets/alphacam.JPG";
+import alphawisdom from "../assets/alphawisdom.JPG";
+import boyshss from "../assets/boyshss.JPG";
 const schoolLinks = {
     "Sri Vageesha Vidhyashram": {
         driveLink: 'https://drive.google.com/drive/folders/1kJxaV8lWQpIvs5cZG6GraXGfJ56u1hV8?usp=sharing',
         image: srivv
     },
     "Sri Vignesh Vidhyalaya": {
-        driveLink: 'https://example.com/vignesh',
-        image: 'https://via.placeholder.com/150?text=Sri+Vignesh'
+        driveLink: 'https://drive.google.com/drive/folders/1Q-01x4BLScHwbGeGplTLE6QmcFcQXc7o?usp=sharing',
+        image: vignesh
     },
     "Sri Akilandeswari Vidhyalaya": {
         driveLink: 'https://drive.google.com/drive/folders/11BMzugLprXNTfPxVVj9oaRYgck66rqnV?usp=sharing',
         image: sav
     },
     "RSK Higher Secondary School": {
-        driveLink: 'https://example.com/RSK',
-        image: 'https://via.placeholder.com/150?text=RSK'
+        driveLink: 'https://drive.google.com/drive/folders/1r8sQ1BHKw5rR2WVpCZ1pCnHodvAVuYt_?usp=sharing',
+        image: rsk
     },
     "Alpha Plus Matriculation Higher Secondary School": {
-        driveLink: 'https://example.com/Alpha',
-        image: 'https://via.placeholder.com/150?text=Alpha'
+        driveLink: 'https://drive.google.com/drive/folders/1j_NDDFH50s1XY4izyxqEHF8E41UreTq2?usp=sharing',
+        image: alphamat
     },
     "ST. JOAN OF ARC INTERNATIONAL SCHOOL": {
-        driveLink: 'https://example.com/STjoan',
-        image: 'https://via.placeholder.com/150?text=ST+Joan'
+        driveLink: 'https://drive.google.com/drive/folders/1kCxSxXkMS1Ihp9iHI49vt47_86EzAI3m?usp=sharing',
+        image: stjoin
     },
     "Brindavan Vidyalaya": {
-        driveLink: 'https://example.com/Brindhavan',
-        image: 'https://via.placeholder.com/150?text=Brindavan'
+        driveLink: 'https://drive.google.com/drive/folders/1Ia3Nj0p5tK5sN-JrRO9-fWT1lK4Vt10n?usp=sharing',
+        image: brindhavan
     },
     "Chinmaya Vidhyalaya": {
-        driveLink: 'https://example.com/Chinmaya',
-        image: 'https://via.placeholder.com/150?text=Chinmaya'
+        driveLink: 'https://drive.google.com/drive/folders/1vig5uY8378KNSVJw8BcErmoQ3DSf8r19?usp=sharing',
+        image: chinmaya
     },
     "Sri Vignesh Public School": {
-        driveLink: 'https://example.com/Vigneshpublic',
-        image: 'https://via.placeholder.com/150?text=Sri+Vignesh+Public'
+        driveLink: 'https://drive.google.com/drive/folders/11P9YW2bI6Fzs9kiNNTu0WSgEDkXGXDNP?usp=sharing',
+        image: vigneshpublic
     },
     "Santhanam Vidyalaya": {
         driveLink: 'https://drive.google.com/drive/folders/1CBpS_D65dPMo-C28ivTinnolGA0wTj5P?usp=sharing',
         image: santhanam
     },
     "Aurobindo International School": {
-        driveLink: 'https://example.com/Aurobindo',
-        image: 'https://via.placeholder.com/150?text=Aurobindo'
+        driveLink: 'https://drive.google.com/drive/folders/1gXF1RFhljhjjnK_GWFGP7gGSqbKB4_nA?usp=sharing',
+        image: aurobindo
     },
     "Mahathma Gandhi Centenary Vidhyalaya": {
-        driveLink: 'https://example.com/MGCV',
-        image: 'https://via.placeholder.com/150?text=MGCV'
+        driveLink: 'https://drive.google.com/drive/folders/1EL5hJCE44h7yGnSsG4IB3veqeToKn0cZ?usp=sharing',
+        image: mgcv
     },
     "Kamala Niketan Montessari School": {
         driveLink: 'https://drive.google.com/drive/folders/1XKSXD4GV0xV6Kse1I5_motQw_ezcHVFg?usp=sharing',
         image: knms
     },
     "Alpha Cambridge International": {
-        driveLink: 'https://example.com/alpha',
-        image: 'https://via.placeholder.com/150?text=Alpha+Cambridge'
+        driveLink: 'https://drive.google.com/drive/folders/1Jg1V-cizcRkwnbbPyOpr3_8J2cImjLgl?usp=sharing',
+        image: alphacam
     },
     "Alpha Wisdom Vidhyashram": {
-        driveLink: 'https://example.com/alpha-wisdom',
-        image: 'https://via.placeholder.com/150?text=Alpha+Wisdom'
+        driveLink: 'https://drive.google.com/drive/folders/13faomEErRKlXgOMxQWdXtg_DqOybKFFA?usp=sharing',
+        image: alphawisdom
     },
     "Govt Boys School, Srirangam": {
-        driveLink: 'https://example.com/govt-boys',
-        image: 'https://via.placeholder.com/150?text=Govt+Boys'
+        driveLink: 'https://drive.google.com/drive/folders/1kxed8UIh4P8nwwtFAHjXo3sDZopNDOki?usp=sharing',
+        image: boyshss
     },
     "Old Student Association": {
         driveLink: 'https://drive.google.com/file/d/1GnkYNO1oSirCotaWj6zPIqUOLLTDl2az/view?usp=drive_link',
