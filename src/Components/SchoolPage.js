@@ -115,7 +115,7 @@ const SchoolPage = () => {
             So we have tried our best to give you the moments you spent with us. This is a new effort from us, doing it for the first time in Trichy.
             We've given the download link below. As the pictures are of highest quality, the file size will be large.</p>
             {driveLink ? (
-                <a href={driveLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">Download</a>
+                <a href={driveLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Photos</a>
             ) : (
                 <p>Photos will be coming soon</p>
             )}
